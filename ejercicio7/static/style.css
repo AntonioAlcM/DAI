@@ -11,7 +11,8 @@
 }
 
 #page-wrapper {
-    width: 100%;        
+    width: 100%;
+    height: 100% ;        
     padding: 0;
     background: url('imagenes/logoIcono1.jpg');
 }
@@ -23,6 +24,9 @@
 
     #page-wrapper {
         padding: 22px 10px;
+        width: 100%;
+    height: 868px;
+    background: url('imagenes/logoIcono1.jpg');
     }
 }
 
