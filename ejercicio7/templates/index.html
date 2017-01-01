@@ -1,5 +1,6 @@
 
 {% load staticfiles %} 
+{% load static %}
 {% load i18n %}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -13,10 +14,10 @@
 		Práctica 7
 	</title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-	<script src="/static/jquery-3.1.1.min.js"></script>
+	<script src="{% static 'jquery-3.1.1.min.js' %}"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="{% static 'style.css' %}">
-	<script src="/static/jquery-3.1.1.js"></script>
+	<script src="{% static 'jquery-3.1.1.js' %}"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 </head>
 
@@ -51,7 +52,7 @@
 				
 				<a class="navbar-brand" href="#">
 				{% block icono %}
-					<img src="../static/imagenes/logoIcono.jpg" alt="LOGO">
+					<img src="{% static 'imagenes/logoIcono.jpg' %}" alt="LOGO">
 					{% endblock%}
 				</a>
 				

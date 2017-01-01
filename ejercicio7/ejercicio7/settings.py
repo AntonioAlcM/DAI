@@ -25,7 +25,7 @@ SECRET_KEY = 'ia+5i9n1_r+7_68i@mw(9&t_b&x-i(w0ul7nt%jf60qc40v5h0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'restaurantes',
     'registration',
-    'crispy_forms',
+    #'crispy_forms',
+
 ]
 
 MIDDLEWARE = [
@@ -121,7 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+
 
 REGISTRATION_OPEN = True                # If True, users can register
 ACCOUNT_ACTIVATION_DAYS = 7     # One-week activation window; you may, of course, use a different value.
@@ -132,4 +134,10 @@ LOGOUT_REDIRECT_URL = '/restaurantes/'  # The page you want users to arrive at a
 
 CLIENT = MongoClient('localhost', 27017)
 
-CRISPY_TEMPLATE_PACK = 'bootstrap3' 
+#CRISPY_TEMPLATE_PACK = 'bootstrap3' 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    #'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+STATIC_FINDERS= STATICFILES_FINDERS
