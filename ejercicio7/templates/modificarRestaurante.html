@@ -13,7 +13,6 @@
 				type: 'GET',
 				dataType : 'json',                       
 				success: function(datos) {
-								alert(datos);  
 					Visualiza_filas (datos);  
 				},
 				failure: function(datos) {     		
@@ -25,41 +24,34 @@
 		function Visualiza_filas (datos) {
 			var index=0;
 			var index2=0;
-			alert(datos);
-			$("#tab tbody tr").each(function (index) 
+			$("#acrylic tbody tr").each(function (index) 
 			{
 
 				$(this).children("td").each(function (index2) 
 				{
-
-					$(this).text(datos[index2][index]);
-
+					if(index2==0)
+						$(this).text(datos[index]['addres']);
+					else if(index2==1)
+						$(this).text(datos[index]['borough']);
+					else if(index2==2)
+						$(this).text(datos[index]['cuisine']);
+					else if(index2==3)
+						$(this).text(datos[index]['name']);
+					else if(index2==4)
+						$(this).text(datos[index]['restaurant_id']);
 					index2++;
 				});
 				index++;
 			});
 		};   
-		$(document).ready(function() {
-			$('tbody tr td a:has(ul)').hover(
-				function(e)
-				{
-					$(this).find('ul').css({display: "block"});
-				},
-				function(e)
-				{
-					event.preventDefault();
-					$( this ).find('ul').hide( "slow" );	
 
-				}
-				);
-		});
 	</script>
 <div class="container">
 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			<h1 class="page-header">Restaurantes</h1>
 			<h2 class="sub-header">Lista de restaurantes</h2>
 			<div class="table-responsive">
-				<table class="table" id="tab">
+				<table class="table" id="acrylic">
 					<thead>
 						<tr>
 							<th>address</th>
@@ -85,25 +77,30 @@
 
 						{%for record in coleccion %}
 						<tr >
-							<td> <a href=""  id="pi">{{record.address.street}}
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}"  id="pi">{{record.address.street}}
 								<ul style="display: none;">
 									<li>Coordenadas:{{record.address.coord}}</li>
 									<li>Código postal:{{record.address.zipcode}}</li>
 								</ul></a>
 							</td>
 
-							<td> <a href="">{{record.borough}}
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.borough}}
 								<ul style="display: none;">
 									<li>Coordenadas:{{record.address.coord}}</li>
 									<li>Código postal:{{record.address.zipcode}}</li>
 								</ul></a>
 							</td>
-							<td> <a href="">{{record.cuisine}}
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.cuisine}}
 								<ul style="display: none;">
 									<li>Coordenadas:{{record.address.coord}}</li>
 									<li>Código postal:{{record.address.zipcode}}</li>
 								</ul></a></td>
-								<td> <a href="">{{record.name}}
+								<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.name}}
+									<ul style="display: none;">
+										<li>Coordenadas:{{record.address.coord.}}</li>
+										<li>Código postal:{{record.address.zipcode}}</li>
+									</ul></a></td>
+								<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.restaurant_id}}
 									<ul style="display: none;">
 										<li>Coordenadas:{{record.address.coord.}}</li>
 										<li>Código postal:{{record.address.zipcode}}</li>

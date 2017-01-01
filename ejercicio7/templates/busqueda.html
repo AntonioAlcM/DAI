@@ -1,49 +1,61 @@
 {% extends "index.html" %}
 
+{% block body %}
 
+{% block contenido %}
 
-	{% block container %}
-	{% block page_header %}
-			{{ super() }}
-		{%endblock%}
-		{% block page_menu %}
-			{{ super() }}
-		{%endblock%}
-	<div id="body_image2">
-		{% block body_image %}		
+<div class="container">		
 		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h2 class="sub-header">Restaurantes encontrados</h2>
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>address</th>
-                  <th>borough</th>
-                  <th>cuisine</th>
-                  <th>name</th>
-                  <th>restaurant_id</th>
-                </tr>
-              </thead>
-              <tbody>
-				{%for record in get: %}
-                <tr>
-                  <td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}" >{{record['address']['street']}}</td>
-                  <td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['borough']}}</td>
-                  <td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['cuisine']}}</td>
-                  <td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['name']}}</td>
-                  <td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['restaurant_id']}}</td>
-                </tr>
-				 {% endfor %}
-              </tbody>
-            </table>
+      <h1 class="page-header">Restaurantes</h1>
+      <h2 class="sub-header">Restaurantes encontrados {{record.count}}</h2>
+      <div class="table-responsive">
+        <table class="table" id="tab">
+          <thead>
+            <tr>
+              <th>address</th>
+              <th>borough</th>
+              <th>cuisine</th>
+              <th>name</th>
+              <th>restaurant_id</th>
+            </tr>
+          </thead>
+          <tbody> 
+            {%for record in coleccion %}
+            <tr >
+              <td> <a href=""  id="pi">{{record.address.street}}
+                <ul style="display: none;">
+                  <li>Coordenadas:{{record.address.coord}}</li>
+                  <li>Código postal:{{record.address.zipcode}}</li>
+                </ul></a>
+              </td>
+
+              <td> <a href="">{{record.borough}}
+                <ul style="display: none;">
+                  <li>Coordenadas:{{record.address.coord}}</li>
+                  <li>Código postal:{{record.address.zipcode}}</li>
+                </ul></a>
+              </td>
+              <td> <a href="">{{record.cuisine}}
+                <ul style="display: none;">
+                  <li>Coordenadas:{{record.address.coord}}</li>
+                  <li>Código postal:{{record.address.zipcode}}</li>
+                </ul></a></td>
+                <td> <a href="">{{record.name}}
+                  <ul style="display: none;">
+                    <li>Coordenadas:{{record.address.coord.}}</li>
+                    <li>Código postal:{{record.address.zipcode}}</li>
+                  </ul></a></td>
+                <td> <a href="">{{record.restaurant_id}}
+                  <ul style="display: none;">
+                    <li>Coordenadas:{{record.address.coord.}}</li>
+                    <li>Código postal:{{record.address.zipcode}}</li>
+                  </ul></a></td>
+                  
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
-		{%endblock%}
-	</div>
-
-	{% endblock %}
-
 </div>
-
-</body>
-</html>
+    {%endblock%}    
+    {%endblock%}

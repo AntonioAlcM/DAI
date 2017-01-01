@@ -1,0 +1,173 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+{% block contenido %}
+
+<div id="container" style="width:100%; height:400px;"></div>
+
+  <script type="text/javascript">
+   
+    $(document).ready(function() {
+      var options = {
+        chart: {
+          zoomType: 'xy'
+        },
+        title: {
+          text: 'Calificación por años'
+        },
+        xAxis: [{
+          crosshair: true
+        }],
+        yAxis: [{ // Primary yAxis
+          labels: {
+            crosshair: true,
+            format: '{value} Score',
+            style: {
+              color: Highcharts.getOptions().colors[1]
+            }
+          },
+          title: {
+            text: 'Valoración',
+            style: {
+              color: Highcharts.getOptions().colors[1]
+            }
+          },
+          categories: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+        }, { // Secondary yAxis
+          title: {
+            text: 'Puntuación',
+            style: {
+              color: Highcharts.getOptions().colors[0]
+            }
+          },
+          labels: {
+            format: '{value} point',
+            style: {
+              color: Highcharts.getOptions().colors[0]
+            }
+          },
+          opposite: true
+        }],
+        tooltip: {
+          headerFormat: '<b>{series.name}</b><br>',
+          pointFormat: 'Valor: {point.y:.2f}, Nº muestra{point.x} '
+        },
+
+        plotOptions: {
+          spline: {
+            marker: {
+              enabled: true
+            }
+          },
+          column: {
+            stacking: 'normal',
+            dataLabels: {
+              enabled: true,
+              color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
+            }
+          }
+        },
+        legend: {
+          layout: 'vertical',
+          align: 'right',
+          x: -100,
+          verticalAlign: 'top',
+          y: 100,
+          floating: true,
+          backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+        },
+        series: [{
+          name: 'Puntuación 2011',
+          type: 'column',
+          yAxis: 1,
+          data: [],
+          tooltip: {
+            valueSuffix: ' score'
+          }
+
+        }, {
+          name: 'Puntuación 2012',
+          type: 'column',
+          yAxis: 1,
+          data: [],
+          tooltip: {
+            valueSuffix: ' score'
+          }
+
+        },{
+          name: 'Puntuación 2013',
+          type: 'column',
+          yAxis: 1,
+          data: [],
+          tooltip: {
+            valueSuffix: ' score'
+          }
+
+        },{
+          name: 'Puntuación 2014',
+          type: 'column',
+          yAxis: 1,
+          data: [],
+          tooltip: {
+            valueSuffix: ' score'
+          }
+
+        },{
+          name: 'Valoración 2011',
+          type: 'spline',
+          yAxis: 0,
+          data: [],
+          tooltip: {
+            valueSuffix: 'puntos'
+          }
+        }, {
+          name: 'Valoración 2012',
+          type: 'spline',
+          yAxis: 0,
+          data: [],
+          tooltip: {
+            valueSuffix: 'puntos'
+          }
+        }, {
+          name: 'Valoración 2013',
+          type: 'spline',
+          yAxis: 0,
+          data: [],
+          tooltip: {
+            valueSuffix: 'puntos'
+          }
+        }, {
+          name: 'Valoración 2014',
+          type: 'spline',
+          yAxis: 0,
+          data: [],
+          tooltip: {
+            valueSuffix: 'puntos'
+          }
+        }]
+      };
+      var url =  "{% url 'verEstadistica' %}";
+      $.getJSON(url,  function(data) {
+       options.series[0].data = data[0];
+       options.series[1].data = data[1];
+       options.series[2].data = data[2];
+       options.series[3].data = data[3];
+       options.series[4].data = data[4];
+       options.series[5].data = data[5];
+       options.series[6].data = data[6];
+       options.series[7].data = data[7];
+       var chart = new Highcharts.Chart('container',options);
+
+     });
+    });
+
+  </script>
+
+
+ {%endblock%}    
+    {%endblock%}
+
+
+
+

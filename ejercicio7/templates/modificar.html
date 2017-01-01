@@ -1,0 +1,112 @@
+{% extends "index.html" %}
+
+
+{% block body %}
+
+{% block contenido %}
+
+
+<style type="text/css">
+	.form-horizontal .control-label {
+    text-align: right;
+    color: chocolate;
+}
+</style>
+
+  <form class="form-horizontal" action="{% url 'modificarRestauranteExistente' %}" method="Post">
+  <fieldset>
+
+<!-- Form Name -->
+<legend style="color: chocolate;">Form Name</legend>
+  {% csrf_token %}
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Adress building:</label>
+      <div class="col-md-4">
+        <input type="text" name="building" value="{{record.address.building}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Adress coordX:</label>
+      <div class="col-md-4">
+        <input type="text" name="coordX" value="{{ record.address.coord.0}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Adress coordY:</label>
+      <div class="col-md-4">
+        <input type="text" name="coordY" value="{{ record.address.coord.1}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Adress street:</label>
+      <div class="col-md-4">
+        <input type="text" name="street" value="{{ record.address.street}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Adress zipcode:</label>
+      <div class="col-md-4">
+        <input type="text" name="zipcode" value="{{ record.address.zipcode}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	 <div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Borough:</label>
+      <div class="col-md-4">
+        <input type="text" name="borough" value="{{ record.borough}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Cuisine:</label>
+      <div class="col-md-4">
+        <input type="text" name="cuisine" value="{{record.cuisine}}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Name:</label>
+      <div class="col-md-4">
+        <input type="text" name="name" value="{{ record.name }}"  class="form-control input-md"/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Restaurant_id:</label>
+      <div class="col-md-4">
+        <input type="text" name="restaurant_id" value="{{ record.restaurant_id}}"  class="form-control input-md" readonly />
+      </div>
+    </div>
+<legend style="color: chocolate">Form Name</legend>
+	{%for i in record.grades %}
+	<input type="text" name="grades" value="{{i}}" style="visibility:hidden"> 
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Grades date:</label>
+      <div class="col-md-4">
+        <input type="text" name="date" value="{{i.date}}"  class="form-control input-md" readonly/>
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Grades grade:</label>
+      <div class="col-md-4">
+        <input type="text" name="grade" value="{{i.grade}}"  class="form-control input-md" readonly/>
+      </div>
+    </div>
+	 <div class="form-group">
+      <label class="col-md-4 control-label" for="usr">Grades score:</label>
+      <div class="col-md-4">
+        <input type="text" name="score" value="{{i.score}}"  class="form-control input-md"readonly/>
+      </div>
+    </div>
+	 {% endfor %}	
+   <div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">SUBMIT</button>
+  </div>
+</div>
+</fieldset>
+</form>
+
+
+
+	{% endblock %}
+
+{% endblock %}
+
