@@ -16,6 +16,7 @@ def index(request):
 @login_required
 def redireccionar(request):	
 	return render(request,'registrarRestaurante.html')
+@login_required	
 def modificarRestaurante(request):
 	db=cliente_de_mongo.restaurantes
 	collection=db.restaurants
@@ -103,11 +104,13 @@ def devuelve_filas(request):
 	filas = collection.find().skip(int(desde)).limit(10)
 	for record in filas:
 		diccionario={}
-		diccionario["addres"]=record['address']['street'],
-		diccionario["borough"]=record['borough'],
- 		diccionario["cuisine"]=record['cuisine'],
- 		diccionario["name"]=record['name'],
+		diccionario["addres"]=record['address']['street']
+		diccionario["borough"]=record['borough']
+ 		diccionario["cuisine"]=record['cuisine']
+ 		diccionario["name"]=record['name']
  		diccionario["restaurant_id"]=record['restaurant_id']
+ 		diccionario["coord"]=record['address']['coord']
+ 		diccionario["zipcode"]=record['address']['zipcode']
  		lista.append(diccionario)
 	return  JsonResponse(lista, safe=False)
 
@@ -121,7 +124,7 @@ def devuelve_coordenadas(request):
 	db=cliente_de_mongo.restaurantes
 	collection=db.restaurants 
 	coordenadas=[]
-	for record in collection.find().limit(20):
+	for record in collection.find().limit(100):
 		coordenadas.append(record['address']['coord'])
 	return JsonResponse(coordenadas, safe=False)
 @login_required	

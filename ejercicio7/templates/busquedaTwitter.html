@@ -6,9 +6,9 @@
 <style>
       /* Always set the map height explicitly to define the size of the div
       * element that contains the map. */
-      #map, #pano {
+      #map{
         height: 450px;
-         width: 100%;
+         width: 85%;
       }
 
     </style>
@@ -42,8 +42,8 @@
     </div>
 
 
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="overflow-y: scroll; height: 300px">
-      <h1 class="page-header">Localización del twittero</h1>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="overflow-y: scroll; height: 300px; width: 70% ">
+      <h1 class="page-header">Tweets</h1>
     {%for i in tweets %}
     <ul class="list-group">
       <li class="list-group-item">Mensaje: {{i.text}}</li>
@@ -58,7 +58,7 @@
     {% endfor %}
 </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-      <h1 class="page-header">Localización del twittero</h1>
+      <h1 class="page-header" style=" width: 85%;">Localización del twittero</h1>
     <div id="map"></div>
     </div>
 </div>
@@ -103,5 +103,7 @@ function geocodeAddress(geocoder, resultsMap) {
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCu0b_ctLhA0uaBGcE01DoIMxat0MH7yk&callback=initMap" async defer></script>
+</div>
+</div>
 {% endblock %}
 {% endblock %}

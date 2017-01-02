@@ -51,15 +51,15 @@
 					<span class="icon-bar"></span>
 				</button>
 				
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="javascript:void(0);">
 				{% block icono %}
-					<img src="{% static 'imagenes/logoIcono.jpg' %}" alt="LOGO">
+					<img src="{% static 'imagenes/DonTenedor.jpg' %}" alt="LOGO" style="width: 100px; height: 100px;">
 					{% endblock%}
 				</a>
 				
 			</div>
 			<ul class="navbar-left well1" id="content">
-					<h1>Restaurantia</h1>
+					<h1 id="titulo">Don tenedor</h1>
 				</ul>
 			
 			<!-- Top Menu Items -->
@@ -91,7 +91,7 @@
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav side-nav">
 				<li>
-					<a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-cutlery" aria-hidden="true"></i></i> Gráficas <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+					<a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-cutlery" aria-hidden="true"></i></i> Restaurantes <i class="fa fa-fw fa-angle-down pull-right"></i></a>
 					<ul id="submenu-1" class="collapse">
 						<li><a href="{% url 'redireccionar' %}"><i class="fa fa-angle-double-right"></i> Registrar restaurante</a></li>
 						<li><a href="{% url 'modificarRestaurante' %}"><i class="fa fa-angle-double-right"></i> Modificar restaurante</a></li>

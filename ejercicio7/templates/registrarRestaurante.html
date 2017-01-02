@@ -2,16 +2,23 @@
 {% extends "index.html" %}
 
 {% block body %}
+
+{% block contenido %}
+
 <script type="text/javascript">
-  function convertirGpsADireccion(lat, lon, callback) {
-    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyBCu0b_ctLhA0uaBGcE01DoIMxat0MH7yk&callback=initMap" );
-}
+
+var datos=[];
+      var url =' https://maps.googleapis.com/maps/api/geocode/json?address=avenida+de+la+libertad&components=postal_code:18082&components=locality:Huetor+Vega&key=AIzaSyDEICkYChmmm--Uq6ket7gMWDHfjrIx0-Y';
+      //var panorama=document.location.href=url;
+        $.getJSON(url,  function(data) {
+          alert(JSON.stringify(data['status']));
+        });
+
 
 </script>
-{% block contenido %}
 <div class="container">
   <div class="col-lg-offset-4 col-lg-4" id="panel">
-    <h2>Registrar restaurante</h2>
+    <h2 class="cabecera">Registrar restaurante</h2>
 
     <form action="{% url 'registrarRestaurante' %}" method="post"  >
       {% csrf_token %}

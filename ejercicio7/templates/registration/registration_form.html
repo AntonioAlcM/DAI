@@ -13,10 +13,9 @@
 				{% csrf_token %}
 
 				<h2>Formulario de registro</h2>
-				<hr class="colorgraph">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6">
-					<ul class="errorlist"><li>A user with that username already exists.</li></ul>
+					<ul class="errorlist" style="background: wheat;"><li>A user with that username already exists.</li></ul>
 						<div class="form-group">
 							
 							<input type="text"  name="username" id="id_username" class="form-control input-lg"  required="" placeholder="Username" tabindex="1" autofocus="">          
@@ -24,7 +23,7 @@
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-6">
-						<span tabindex="2">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>
+						<span tabindex="2" style="background: wheat;">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>
 					</div>
 				</div>
 				<div class="row">
@@ -39,13 +38,13 @@
 						</div>
 					</div>
 				</div>
-				<ul class="errorlist"><li>Enter a valid email address.</li></ul>
+				<ul class="errorlist" style="background: wheat;"><li>Enter a valid email address.</li></ul>
 				<div class="form-group">
 					<input type="email" name="email" id="id_email" class="form-control input-lg" placeholder="Email Address" tabindex="5">
 				</div>
 				<div class="row">
-					<ul class="errorlist"><li>This password is too short. It must contain at least 8 characters.</li></ul>
-					<ul class="errorlist"><li>The two password fields didn't match.</li></ul>
+					<ul class="errorlist" style="background: wheat;"><li>This password is too short. It must contain at least 8 characters.</li></ul>
+					<ul class="errorlist" style="background: wheat;"><li>The two password fields didn't match.</li></ul>
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="form-group">
 							<input type="password" id="id_password1" name="password1" required="" class="form-control input-lg" placeholder="Password" tabindex="6">
@@ -59,8 +58,6 @@
 
 					</div>
 				</div>
-
-				<hr class="colorgraph">
 				<div class="row">
 					<div class="col-xs-12 col-md-6"><input type="submit" value="{% trans 'Submit' %}" class="btn btn-lg btn-primary btn-block" tabindex="5"></div>
 				</div>
