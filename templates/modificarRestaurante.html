@@ -1,0 +1,164 @@
+
+{% extends "index.html" %}
+
+{% block body %}
+
+{% block contenido %}
+<script>
+		function llamar_ajax(fila){
+  			
+			$.ajax({
+				url: '/restaurantes/ajax/',
+				data: { fila : fila},
+				type: 'GET',
+				dataType : 'json',                       
+				success: function(datos) {
+					Visualiza_filas (datos);  
+				},
+				failure: function(datos) {     		
+					alert('esto no vá');
+				}
+			});
+		};       
+
+		function Visualiza_filas (datos) {
+			var index=0;
+			var index2=0;
+			 $(function () {
+            var content = '';
+            var ul='';
+
+            //content += '<tbody>'; -- **superfluous**
+            for (var index = 0; index < datos.length; index++) {
+            var url_mask = "{% url 'modificarUnRestaurante' identificador=12345 %}".replace(/12345/, datos[index]['restaurant_id'].toString());
+            content += '<tr>'
+            content += '<td> <a href='+url_mask+'  id="pi">'+datos[index]['addres'];
+            content+='<ul style="display: none;">';
+            content+='<li>Coordenadas:' + datos[index]['coord']+'</li>';
+            content+='<li>Código postal:'+ datos[index]['zipcode']+'</li>';
+			content+='</ul>';
+			content+='</a>';
+			content+='</td>';
+            content += '<td> <a href="{% url 'modificarUnRestaurante' identificador=1235%}"  id="pi">'+datos[index]['borough'];
+            content+='<ul style="display: none;">';
+            content+='<li>Coordenadas:' + datos[index]['coord']+'</li>';
+            content+='<li>Código postal:'+ datos[index]['zipcode']+'</li>';
+			content+='</ul>';
+			content+='</a>';
+			content+='</td>';
+            content += '<td> <a href="{% url 'modificarUnRestaurante' identificador=1235%}"  id="pi">'+datos[index]['cuisine'];
+            content+='<ul style="display: none;">';
+            content+='<li>Coordenadas:' + datos[index]['coord']+'</li>';
+            content+='<li>Código postal:'+ datos[index]['zipcode']+'</li>';
+			content+='</ul>';
+			content+='</a>';
+			content+='</td>';
+            content += '<td> <a href="{% url 'modificarUnRestaurante' identificador=1235%}"  id="pi">'+datos[index]['name'];
+            content+='<ul style="display: none;">';
+            content+='<li>Coordenadas:' + datos[index]['coord']+'</li>';
+            content+='<li>Código postal:'+ datos[index]['zipcode']+'</li>';
+			content+='</ul>';
+			content+='</a>';
+			content+='</td>';
+            content += '<td> <a href="{% url 'modificarUnRestaurante' identificador=1235%}"  id="pi">'+datos[index]['restaurant_id'];
+            content+='<ul style="display: none;">';
+            content+='<li>Coordenadas:' + datos[index]['coord']+'</li>';
+            content+='<li>Código postal:'+ datos[index]['zipcode']+'</li>';
+			content+='</ul>';
+			content+='</a>';
+			content+='</td>';
+            content += '</tr>';
+			
+            }
+           // content += '</tbody>';-- **superfluous**
+            //$('table tbody').replaceWith(content);  **incorrect..**
+             $("#acrylic tbody").html(content);  // **better. give the table a ID, and replace**
+       }); 
+
+							
+		};   
+$(document).ready(function() {
+			$('tbody tr td ').hover(
+				
+				function(e)
+				{
+					$(this).find('ul').css({display: "block"});
+				},
+				function(e)
+				{
+					event.preventDefault();
+					$( this ).find('ul').hide( "slow" );	
+
+				}
+				);
+		});
+
+	</script>
+<div class="container">
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="width: 80%">
+			<h1 class="page-header">Restaurantes</h1>
+			<div class="table-responsive">
+				<table class="table" id="acrylic">
+					<thead>
+						<tr>
+							<th>address</th>
+							<th>borough</th>
+							<th>cuisine</th>
+							<th>name</th>
+							<th>restaurant_id</th>
+						</tr>
+					</thead>
+
+					<ul class="pagination" >
+						<li onclick="llamar_ajax(0)"><a href="javascript:void(0);" =''">1</a></li>
+						<li onclick="llamar_ajax(10)"><a href="javascript:void(0);">2</a></li>
+						<li onclick="llamar_ajax(20)"><a href="javascript:void(0);">3</a></li>
+						<li onclick="llamar_ajax(30)"><a href="javascript:void(0);">4</a></li>
+						<li onclick="llamar_ajax(40)"><a href="javascript:void(0);">5</a></li>
+						<li onclick="llamar_ajax(50)"><a href="javascript:void(0);">6</a></li>
+						<li onclick="llamar_ajax(60)"><a href="javascript:void(0);">7</a></li>
+						<li onclick="llamar_ajax(70)"><a href="javascript:void(0);">8</a></li>
+					</ul>
+
+					<tbody>	
+
+						{%for record in coleccion %}
+						<tr >
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}"  id="pi">{{record.address.street}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record.address.coord}}</li>
+									<li>Código postal:{{record.address.zipcode}}</li>
+								</ul></a>
+							</td>
+
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.borough}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record.address.coord}}</li>
+									<li>Código postal:{{record.address.zipcode}}</li>
+								</ul></a>
+							</td>
+							<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.cuisine}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record.address.coord}}</li>
+									<li>Código postal:{{record.address.zipcode}}</li>
+								</ul></a></td>
+								<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.name}}
+									<ul style="display: none;">
+										<li>Coordenadas:{{record.address.coord.}}</li>
+										<li>Código postal:{{record.address.zipcode}}</li>
+									</ul></a></td>
+								<td> <a href="{% url 'modificarUnRestaurante' identificador=record.restaurant_id%}">{{record.restaurant_id}}
+									<ul style="display: none;">
+										<li>Coordenadas:{{record.address.coord.}}</li>
+										<li>Código postal:{{record.address.zipcode}}</li>
+									</ul></a></td>
+									
+									{% endfor %}
+								</tbody>
+							</table>
+						</div>
+					</div>
+					</div>
+
+{% endblock %}
+{% endblock %}
