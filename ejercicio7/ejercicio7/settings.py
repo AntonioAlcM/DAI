@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ia+5i9n1_r+7_68i@mw(9&t_b&x-i(w0ul7nt%jf60qc40v5h0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'restaurantes',
     'registration',
-    #'crispy_forms',
+    'crispy_forms',
 
 ]
 
@@ -134,7 +134,7 @@ LOGOUT_REDIRECT_URL = '/restaurantes/'  # The page you want users to arrive at a
 
 CLIENT = MongoClient('localhost', 27017)
 
-#CRISPY_TEMPLATE_PACK = 'bootstrap3' 
+CRISPY_TEMPLATE_PACK = 'bootstrap3' 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',

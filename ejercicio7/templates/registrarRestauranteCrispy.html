@@ -1,24 +1,19 @@
 
 {% extends "index.html" %}
 {% load crispy_forms_tags %}
-
 {% block body %}
 
 {% block contenido %}
-{{ form|crispy }}
-<div class="container">
-  <div class="col-lg-offset-4 col-lg-4" id="panel">
-    <h2>Registrar restaurante</h2>
 
-    <form action="{% url 'registrarRestaurante' %}" method="post"  >
+
+<div class="container" >
+  <div class="col-lg-offset-4 col-lg-4" id="panel">
+    <h2 class="cabecera">Registrar restaurante</h2>
+<form action="{% url 'registrarRestaurante' %}" method="post"  >
       {% csrf_token %}
-         {{ my_formset|crispy }}
-         {% crispy form %}
-      <div class="group">
-        <center> <button type="submit" class="btn btn-warning" value="Submit">Registrar <span class="glyphicon glyphicon-send"></span></button></center>
-      </div>
-    </form>
-  </div>
+      {% crispy form %}
+</form>
+ </div>
 </div>
 {% endblock %}
 {% endblock %}

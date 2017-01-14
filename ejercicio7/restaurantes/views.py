@@ -10,12 +10,11 @@ from django.core import serializers
 import json
 from bson import json_util
 import tweepy
-
 def index(request):
     return render(request, 'index.html')
 @login_required
 def redireccionar(request):	
-	return render(request,'registrarRestaurante.html')
+	return render(request,'registrarRestauranteCrispy.html', {'form': FormRestaurantes()})
 @login_required	
 def modificarRestaurante(request):
 	db=cliente_de_mongo.restaurantes
@@ -31,10 +30,11 @@ def registrarRestaurante(request):
 	if request.method == 'POST':
 		form = FormRestaurantes(request.POST)		
 		if form.is_valid():
-			username = form.cleaned_data['Name']
 			return crearRestaurant(request,form)
 		else:
+
 			print("Los errores son: ", form.errors.as_data())
+			return render(request, 'error.html')
 	else:
 		form = FormRestaurantes()
 		return render(request, 'index.html')
