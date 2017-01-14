@@ -134,8 +134,9 @@ LOGOUT_REDIRECT_URL = '/restaurantes/'  # The page you want users to arrive at a
 
 CLIENT = MongoClient('localhost', 27017)
 
-CRISPY_TEMPLATE_PACK = 'bootstrap3' 
+
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder'
 )
+CRISPY_TEMPLATE_PACK = 'bootstrap3' 
