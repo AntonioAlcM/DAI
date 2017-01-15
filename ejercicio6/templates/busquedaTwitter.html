@@ -1,0 +1,119 @@
+{% extends "index.html" %}
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+{% block container %}
+
+
+
+<div id="body_image5">
+  <div class="container1" >
+    <h2>Resultados</h2>
+    {%for i in tweets: %}
+    <ul class="list-group">
+      <li class="list-group-item">Nombre: {{i.author.name}}</li>
+      <li class="list-group-item" id="{{i.author.location}}" onclick="obtenerID(id);" >Localizacion: {{i.author.location}}</li>
+      <li class="list-group-item">Descripcion: {{i.author.description}}</li>
+      <li class="list-group-item">Fecha de creacion: {{i.author.created_at}}</li>
+      <li class="list-group-item">URL: {{i.author.url}}</li> 
+      <li class="list-group-item">Retweet: {{i.retweet_count}}</li>
+      
+    </ul>
+    {% endfor %}
+  </div>
+</div>
+{% block page_header %}
+{{ super() }}
+
+{%endblock%}
+{% block page_menu %}
+{{ super() }}
+
+{%endblock%}
+
+<div id="page_forms">
+  <!-- Start of User Login -->
+
+  <div id="userlogin">
+
+    <div class="row">
+      <div class="span4">
+        <form class="navbar-form navbar-left"  action="{{ url_for('buscarTwitter')}} " method=Post>
+          <div class="input-append">
+            <input type="text" class="span2" name="busquedaTwitter"/>
+            <button type="submit" class="btn" >Buscar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="body_image4">
+  <div id="map"></div>
+</div>
+<style type="text/css">
+ #map{
+  float: left;
+  height: 75%;
+  width: 45%;
+  padding-top: 10px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+</style>
+<script>
+  var id;
+  var geocoder;
+  var map;
+//Función que asigna un valor a una variable global
+function obtenerID(idem) {
+  id = idem;
+
+  geocoder = new google.maps.Geocoder();
+  geocodeAddress(geocoder, map);
+
+}
+
+function initMap() {
+
+  map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: {lat: 37.1434245, lng: -3.5730543}
+  });
+  
+
+
+}
+
+function geocodeAddress(geocoder, resultsMap) {
+  var address = id;
+  geocoder.geocode({'address': address}, function(results, status) {
+    if (status === 'OK') {
+      resultsMap.setCenter(results[0].geometry.location);
+      var marker = new google.maps.Marker({
+        map: resultsMap,
+        position: results[0].geometry.location
+      });
+    } else {
+      alert('No hemos encontrado localizaciones con ese nombre: ' + status);
+    }
+  });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCu0b_ctLhA0uaBGcE01DoIMxat0MH7yk&callback=initMap" async defer></script>
+{% endblock %}
+

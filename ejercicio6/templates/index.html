@@ -1,0 +1,325 @@
+{% block head %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<title>
+		Ejercicio 6
+	</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css" media="screen" />
+	<script src="/static/jquery-3.1.1.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	
+
+
+	<script>
+		function llamar_ajax(fila){
+
+			$.ajax({
+				url: "{{ url_for('devuelve_filas') }}",
+				data: { fila : fila},
+				type: 'GET',
+				dataType : 'json',                        
+				success: function(datos) {
+					Visualiza_filas (datos);  
+				},
+				failure: function(datos) {     		
+					alert('esto no vá');
+				}
+			});
+		};       
+
+		function Visualiza_filas (datos) {
+			var index=0;
+			var index2=0;
+			$("#tab tbody tr").each(function (index) 
+			{
+				$(this).children("td").each(function (index2) 
+				{
+					$(this).text(datos[index2][index]);
+
+					index2++;
+				});
+				index++;
+			});
+		};   
+		$(document).ready(function() {
+			$('tbody tr td a:has(ul)').hover(
+				function(e)
+				{
+					$(this).find('ul').css({display: "block"});
+				},
+				function(e)
+				{
+					event.preventDefault();
+					$( this ).find('ul').hide( "slow" );	
+
+				}
+				);
+		});
+
+		$( document ).ready(function() {				 
+			$( "#cambiar").click(function() {
+				$( "a, #body_image1, #crearRestaurante" ).css( "fontSize", "100px");
+				event.preventDefault();
+			});
+		});
+		$( document ).ready(function() {				 
+			$( "#color" ).click(function() {
+				$( "a, #body_image1, #crearRestaurante" ).animate({ width: "90%" }, 1000 )
+				.animate({ fontSize: "24px" }, "slow" )
+				.animate({ borderLeftWidth: "15px" }, 1000 );
+				$( "a, #body_image1, #crearRestaurante" ).css({
+					color: "#EA00FE"
+				});
+
+
+				event.preventDefault();
+			});
+		});
+	</script>
+
+	{% endblock %}
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Proyecto dai</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="{{ url_for('cargaPagina')}}">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<div class="row">
+					<div class="span4">
+						<form class="navbar-form navbar-left"  action="{{ url_for('buscadorDeRestaurantes')}} " method=Post>
+							<div class="input-append">
+								<input type="text" class="span2" name="busqueda"/>
+								<button type="submit" class="btn" >Buscar</button>
+							</div>
+						</form>
+					</div>
+					<p>
+						<button type="button" class="btn btn-successbtn-primary" id="cambiar">Cambiar letra</button>
+
+
+
+						<button type="button" class="btn btn-info btn-primary" id="color">Cambiar color</button>
+
+						<a href="https://twitter.com/share" class="twitter-share-button" data-via="AntonioAlcM" data-size="large" data-dnt="true">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+					</p>
+
+				</div>
+			</div>
+		</div><!--/.nav-collapse -->
+	</div>
+</nav>	
+<div id="container">
+	{% block container %}
+
+	<div id="body_image1">
+		{% block body_image %}		
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<h1 class="page-header">Restaurantes</h1>
+			<h2 class="sub-header">Lista de restaurantes</h2>
+			<div class="table-responsive">
+				<table class="table" id="tab">
+					<thead>
+						<tr>
+							<th>address</th>
+							<th>borough</th>
+							<th>cuisine</th>
+							<th>name</th>
+							<th>restaurant_id</th>
+						</tr>
+					</thead>
+
+					<ul class="pagination" >
+						<li onclick="llamar_ajax(0)"><a href="#">1</a></li>
+						<li onclick="llamar_ajax(10)"><a href="#">2</a></li>
+						<li onclick="llamar_ajax(20)"><a href="#">3</a></li>
+						<li onclick="llamar_ajax(30)"><a href="#">4</a></li>
+						<li onclick="llamar_ajax(40)"><a href="#">5</a></li>
+						<li onclick="llamar_ajax(50)"><a href="#">6</a></li>
+						<li onclick="llamar_ajax(60)"><a href="#">7</a></li>
+						<li onclick="llamar_ajax(70)"><a href="#">8</a></li>
+					</ul>
+
+					<tbody>	
+						{%for record in get: %}
+						<tr >
+							<td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}"  id="pi">{{record['address']['street']}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record['address']['coord']}}</li>
+									<li>Código postal:{{record['address']['zipcode']}}</li>
+								</ul></a>
+							</td>
+
+							<td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['borough']}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record['address']['coord']}}</li>
+									<li>Código postal:{{record['address']['zipcode']}}</li>
+								</ul></a>
+							</td>
+							<td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['cuisine']}}
+								<ul style="display: none;">
+									<li>Coordenadas:{{record['address']['coord']}}</li>
+									<li>Código postal:{{record['address']['zipcode']}}</li>
+								</ul></a></td>
+								<td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['name']}}
+									<ul style="display: none;">
+										<li>Coordenadas:{{record['address']['coord']}}</li>
+										<li>Código postal:{{record['address']['zipcode']}}</li>
+									</ul></a></td>
+									<td> <a href="{{ url_for('infoRestaurant', identificador=record['restaurant_id']) }}">{{record['restaurant_id']}}
+										<ul style="display: none;">
+											<li>Coordenadas:{{record['address']['coord']}}</li>
+											<li>Código postal:{{record['address']['zipcode']}}</li>
+										</ul></a></td>
+									</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+
+					{%endblock%}
+				</div>
+
+
+				<!-- Start of Page Header -->
+				{% block page_header %}
+				<div id="page_header">
+
+					<h1><span>Game Zone</span></h1>
+					<h3><span>Welcome to Game Zone</span></h3>
+
+					<div class="clearthis">&nbsp;</div>
+
+				</div>
+				{% endblock %}
+				<!-- End of Page Header -->
+
+
+				<!-- Start of Page Menu -->
+				{% block page_menu %}
+				<div id="page_menu">
+
+					<ul>
+						<li class="online"><a href="http://www.freewebsitetemplates.com/" title="Online"><span>Online</span></a><span></span></li>
+						<li class="downloads"><a href="http://www.freewebsitetemplates.com/" title="Downloads"><span>Downloads</span></a><span></span></li>
+						<li class="community"><a href="http://www.freewebsitetemplates.com/" title="Community"><span>Community</span></a><span></span></li>
+						<li class="about"><a href="http://www.freewebsitetemplates.com/" title="About"><span>About Zone</span></a><span></span></li>		
+					</ul>
+
+				</div>
+				{% endblock %}
+				<!-- End of Page Menu -->
+
+
+				<div id="page_forms">
+					{% block page_forms %}
+					<!-- Start of User Login -->
+
+					<div id="userlogin2">
+
+						<div id="userlogin_header">
+							<h2><span>User Login</span></h2>
+						</div>
+
+						<form action="{{ url_for('login') }}" method=Post>
+
+							<div id="field_username">
+								<strong><span>Usuario:</span></strong>
+								<input type="text" name="usuario"/>
+							</div>
+
+							<div id="field_password">
+								<strong><span>Contraseña:</span></strong>
+								<input type="text" name="contrasena" />
+							</div>
+
+							<div id="button_enter">
+								<input type="submit" src="static/images/userlogin_enter.gif" alt="Enter" class="button" />
+							</div>
+
+						</form>
+						<div id="userlogin_links" >
+							<a href="{{ url_for('redireccionar', pagina='registrar') }}" id="register" ><strong><span>Register >>></span></strong></a>
+							<br />
+						</div>
+						<div id="userlogin_links">
+							<ul>
+								<li class="modificar"><a href="{{ url_for('busquedaTwitter') }}" title="Crear restaurante" id="verEstadistica">Buscar en twitter</a><span></span></li>
+								<li class="modificar"><a href="{{ url_for('crearRestaurante') }}" title="Crear restaurante" id="crearRestaurante">Crear restaurante</a><span></span></li>
+								<li class="modificar"><a href="{{ url_for('verEstadistica') }}" title="Crear restaurante" id="verEstadistica">Ver estadistica</a><span></span></li>
+								<li class="modificar"><a href="{{ url_for('verMapa') }}" title="Crear restaurante" id="verEstadistica">Ver situación restaurantes</a><span></span></li>
+							</ul>
+						</div>
+						<div id="userlogin_links3">
+							<ul>
+								{%for feed in feeds.entries: %}
+								<li>{{feed.title}}</li>
+
+								{% endfor %}
+							</ul>
+						</div>
+
+					</div>
+
+					<!-- End of User Login -->
+
+
+					<!-- Start of Site Search -->
+
+
+
+					<!-- End of Site Search -->
+					{% endblock %}
+				</div>
+
+
+				
+
+
+
+				<!-- End of Play Now -->
+
+			</div>
+
+
+
+			{% endblock  %}
+		</div>
+
+		<!-- Start of Page Footer -->
+
+		<div id="page_footer">
+
+			Copyright <a href="http://www.freewebsitetemplates.com">www.yoursite.com</a> | <a href="http://www.freewebsitetemplates.com/termsofuse/">Terms of use</a>
+
+		</div>
+
+		<!-- End of Page Footer -->
+
+
+	</body>
+	</html>

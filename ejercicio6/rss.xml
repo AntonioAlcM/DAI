@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:meneame="http://meneame.net/faq-es.php"
+ >
+<channel>
+	<title>Menéame: publicadas</title>
+	<atom:link href="http://www.meneame.net/rss" rel="self" type="application/rss+xml" />
+	<link>http://www.meneame.net</link>
+	<image><title>Menéame: publicadas</title><link>http://www.meneame.net</link><url>http://mnmstatic.net/img/mnm/eli-rss.png</url></image>
+	<description>Sitio colaborativo de publicación y comunicación entre blogs</description>
+	<pubDate>Wed, 30 Nov 2016 22:30:04 +0000</pubDate>
+	<generator>http://blog.meneame.net/</generator>
+	<language>es</language>
+	<atom:link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+	<item>
+		<meneame:link_id>2703185</meneame:link_id>
+		<meneame:sub>TeRespondo</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>carloscastellanos</meneame:user>
+		<meneame:clicks>4800</meneame:clicks>
+		<meneame:votes>145</meneame:votes>
+		<meneame:negatives>26</meneame:negatives>
+		<meneame:karma>789</meneame:karma>
+		<meneame:comments>83</meneame:comments>
+		<meneame:url></meneame:url>
+		<title>Hola, soy cubano. Te respondo</title>
+		<link>https://www.meneame.net/m/TeRespondo/hola-soy-cubano-respondo</link>
+		<comments>https://www.meneame.net/m/TeRespondo/hola-soy-cubano-respondo</comments>
+		<pubDate>Wed, 30 Nov 2016 22:30:04 +0000</pubDate>
+		<dc:creator>carloscastellanos</dc:creator>
+		<category><![CDATA[TeRespondo]]></category>
+		<category><![CDATA[cubano]]></category>
+		<category><![CDATA[respondo]]></category>
+		<guid>https://www.meneame.net/m/TeRespondo/hola-soy-cubano-respondo</guid>
+		<description><![CDATA[<p>Hola, soy un ingeniero informático cubano viviendo en España desde hace 6 meses. Tras la muerte de Fidel Castro y la aparición de múltiples noticias referentes a mi país en los últimos días, estoy viendo comentarios muy dispares sobre la realidad sociopolítica de mi país que distan mucho de la realidad (dictadura sí/no, elecciones sí/no, miseria sí/no, etc.). Te respondo para intentar aclarar cualquier tipo de dudas de la realidad cubana.</p><p><strong>etiquetas</strong>: cubano, respondo</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703185" >noticia original</a> ()</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703185</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703506</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>buzzlightyeah</meneame:user>
+		<meneame:clicks>8182</meneame:clicks>
+		<meneame:votes>143</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1123</meneame:karma>
+		<meneame:comments>22</meneame:comments>
+		<meneame:url>http://es.gizmodo.com/las-fotos-de-naturaleza-mas-conmovedoras-del-ano-no-te-1789473514</meneame:url>
+		<title>Las fotos de naturaleza más conmovedoras del año</title>
+		<link>https://www.meneame.net/story/fotos-naturaleza-mas-conmovedoras-ano</link>
+		<comments>https://www.meneame.net/story/fotos-naturaleza-mas-conmovedoras-ano</comments>
+		<pubDate>Wed, 30 Nov 2016 20:30:06 +0000</pubDate>
+		<dc:creator>buzzlightyeah</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[fotos]]></category>
+		<category><![CDATA[naturaleza]]></category>
+		<guid>https://www.meneame.net/story/fotos-naturaleza-mas-conmovedoras-ano</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703506.jpeg?1480496107' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Cada año el Museo de Historia Natural de Estados Unidos nomina a las mejores fotos de naturaleza en todo el mundo para que seamos nosotros, el público, que elijamos la más impactante y conmovedora. Estos son los candidatos de este año.</p><p><strong>etiquetas</strong>: fotos, naturaleza</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703506" >noticia original</a> (es.gizmodo.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703506.jpeg?1480496107" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703506</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703764</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>queued</meneame:status>
+		<meneame:user>sede</meneame:user>
+		<meneame:clicks>17813</meneame:clicks>
+		<meneame:votes>345</meneame:votes>
+		<meneame:negatives>52</meneame:negatives>
+		<meneame:karma>121</meneame:karma>
+		<meneame:comments>133</meneame:comments>
+		<meneame:url>http://www.euribor.com.es/2016/11/30/fue-black-friday-2016-una-tomadura-pelo/</meneame:url>
+		<title>¿Fue el Black Friday 2016 una tomadura de pelo?</title>
+		<link>https://www.meneame.net/story/fue-black-friday-2016-tomadura-pelo</link>
+		<comments>https://www.meneame.net/story/fue-black-friday-2016-tomadura-pelo</comments>
+		<pubDate>Wed, 30 Nov 2016 15:17:16 +0000</pubDate>
+		<dc:creator>sede</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[black friday]]></category>
+		<category><![CDATA[rebajas]]></category>
+		<category><![CDATA[estafas]]></category>
+		<guid>https://www.meneame.net/story/fue-black-friday-2016-tomadura-pelo</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/41/media_thumb-link-2703764.jpeg?1480519206' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>¿Yo no soy tonto? Pues va a ser que sí… Todo el mundo conoce el célebre slogan de Media Markt. Cierto es que se trata de un slogan más que efectivo y que ha conseguido sus objetivos, pero al menos durante este Black Friday parece haberse transformado en un boomerang en contra de la propia compañía alemana.</p><p><strong>etiquetas</strong>: black friday, rebajas, estafas</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703764" rel="nofollow">noticia original</a> (www.euribor.com.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/41/media_thumb-link-2703764.jpeg?1480519206" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703764</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703769</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>rataxuelle</meneame:user>
+		<meneame:clicks>2405</meneame:clicks>
+		<meneame:votes>570</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>3240</meneame:karma>
+		<meneame:comments>114</meneame:comments>
+		<meneame:url>http://diariodeavisos.elespanol.com/2016/11/luisa-castro-quitan-valle-los-caidos-deberian-quitar-tambien-los-hospitales-los-embalses-franco/</meneame:url>
+		<title>Alcaldesa de Güímar: &#34;Si quitan el Valle de los Caídos, deberían quitar los hospitales y los embalses que hizo Franco&#34;</title>
+		<link>https://www.meneame.net/story/alcaldesa-guimar-quitan-valle-caidos-deberian-quitar-hospitales</link>
+		<comments>https://www.meneame.net/story/alcaldesa-guimar-quitan-valle-caidos-deberian-quitar-hospitales</comments>
+		<pubDate>Wed, 30 Nov 2016 17:40:03 +0000</pubDate>
+		<dc:creator>rataxuelle</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[franco]]></category>
+		<category><![CDATA[pp]]></category>
+		<category><![CDATA[güímar]]></category>
+		<guid>https://www.meneame.net/story/alcaldesa-guimar-quitan-valle-caidos-deberian-quitar-hospitales</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/41/media_thumb-link-2703769.jpeg?1480519807' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Carmen Luisa Castro (PP) lleva tres años al frente de la alcaldía de Güímar: &#34;otra cosa bien diferente es que se quiera tirar el Valle de los Caídos, porque entonces también tendríamos que tirar los embalses, los hospitales y las casas sociales que hizo Franco, o tirar el muro de Berlín&#34;. Ya se tiró, le recuerda el periodista. &#34;Pero queda un recuerdo, creo&#34;.</p><p><strong>etiquetas</strong>: franco, pp, güímar</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703769" >noticia original</a> (diariodeavisos.elespanol.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/41/media_thumb-link-2703769.jpeg?1480519807" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703769</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703776</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Meneantejon</meneame:user>
+		<meneame:clicks>8755</meneame:clicks>
+		<meneame:votes>298</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>2096</meneame:karma>
+		<meneame:comments>52</meneame:comments>
+		<meneame:url>https://hipertextual.com/especiales/nadia-nerea-tricotiodistrofia</meneame:url>
+		<title>El &#34;cuento chino&#34; de Nadia, la niña afectada de tricotiodistrofia</title>
+		<link>https://www.meneame.net/story/cuento-chino-nadia-nina-afectada-tricotiodistrofia</link>
+		<comments>https://www.meneame.net/story/cuento-chino-nadia-nina-afectada-tricotiodistrofia</comments>
+		<pubDate>Wed, 30 Nov 2016 17:05:08 +0000</pubDate>
+		<dc:creator>Meneantejon</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[enfermedades raras]]></category>
+		<category><![CDATA[reportaje]]></category>
+		<category><![CDATA[investigación]]></category>
+		<guid>https://www.meneame.net/story/cuento-chino-nadia-nina-afectada-tricotiodistrofia</guid>
+		<description><![CDATA[<p>Nadia es una niña de once años afectada de tricotiodistrofia, una enfermedad rara. Su historia, sin embargo, es un &#34;cuento chino&#34; según los expertos.</p><p><strong>etiquetas</strong>: enfermedades raras, reportaje, investigación</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703776" >noticia original</a> (hipertextual.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703776</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703792</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>tomasbcn25</meneame:user>
+		<meneame:clicks>3981</meneame:clicks>
+		<meneame:votes>658</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>4026</meneame:karma>
+		<meneame:comments>293</meneame:comments>
+		<meneame:url>http://www.20minutos.es/noticia/2901894/0/hacienda-gavar-bebidas-azucaradas/subir-tabaco-alcohol/</meneame:url>
+		<title>Hacienda gravará las bebidas azucaradas y subirá los impuestos del tabaco y el alcohol</title>
+		<link>https://www.meneame.net/story/hacienda-gravara-bebidas-azucaradas-subira-impuestos-tabaco</link>
+		<comments>https://www.meneame.net/story/hacienda-gravara-bebidas-azucaradas-subira-impuestos-tabaco</comments>
+		<pubDate>Wed, 30 Nov 2016 16:25:03 +0000</pubDate>
+		<dc:creator>tomasbcn25</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[azucar]]></category>
+		<category><![CDATA[alcohol]]></category>
+		<category><![CDATA[tabaco]]></category>
+		<category><![CDATA[hacienda]]></category>
+		<category><![CDATA[nocivo]]></category>
+		<guid>https://www.meneame.net/story/hacienda-gravara-bebidas-azucaradas-subira-impuestos-tabaco</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/41/media_thumb-link-2703792.jpeg?1480521966' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El ministro de Hacienda y Función Pública, Cristóbal Montoro, ha explicado este miércoles en el Congreso las medidas fiscales que se aprobarán este viernes. El proyecto presupuestario para 2017 no incluye casi ningún recorte en &#34;gasto&#34;. El Gobierno limitará el pago en efectivo a 1.000 euros. El Gobierno prepara una ley para frenar el consumo de alcohol entre los menores de edad. Así te contamos la</p><p><strong>etiquetas</strong>: azucar, alcohol, tabaco, hacienda, nocivo</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703792" >noticia original</a> (www.20minutos.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/41/media_thumb-link-2703792.jpeg?1480521966" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703792</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703265</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>terol</meneame:user>
+		<meneame:clicks>4826</meneame:clicks>
+		<meneame:votes>243</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>1772</meneame:karma>
+		<meneame:comments>47</meneame:comments>
+		<meneame:url>http://listocomics.com/el-misterio-de-los-detectives-mellizos/</meneame:url>
+		<title>El misterio de los detectives mellizos</title>
+		<link>https://www.meneame.net/story/misterio-detectives-mellizos</link>
+		<comments>https://www.meneame.net/story/misterio-detectives-mellizos</comments>
+		<pubDate>Wed, 30 Nov 2016 15:50:20 +0000</pubDate>
+		<dc:creator>terol</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[libros]]></category>
+		<category><![CDATA[editoriales]]></category>
+		<category><![CDATA[cutre]]></category>
+		<guid>https://www.meneame.net/story/misterio-detectives-mellizos</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703265.jpeg?1480438266' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El último libro de Pérez-Reverte y el último libro de Manuel Vázquez Montalbán salieron a la venta con una semana de diferencia y se parecen un montón. Bueno, por dentro no sé, pero por fuera son prácticamente iguales. El de Montalbán se titula Carvalho indaga, es una recopilación de cuentos protagonizados por el desencantado detective privado barcelonés Pepe Carvalho y llegó a las librerías el 13 de octubre, la cubierta es de color negro y en la portada sale un fumador misterioso con gabardina y sombrero.</p><p><strong>etiquetas</strong>: libros, editoriales, cutre</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703265" >noticia original</a> (listocomics.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703265.jpeg?1480438266" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703265</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703643</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>yoshi_90</meneame:user>
+		<meneame:clicks>2864</meneame:clicks>
+		<meneame:votes>922</meneame:votes>
+		<meneame:negatives>7</meneame:negatives>
+		<meneame:karma>4614</meneame:karma>
+		<meneame:comments>72</meneame:comments>
+		<meneame:url>https://www.cuartopoder.es/laespumadeldia/2016/11/30/rajoy-veta-16-leyes-sociales-de-la-oposicion-y-las-autonomias-en-42-dias/21451</meneame:url>
+		<title>Rajoy veta 16 leyes sociales de la oposición y las autonomías en 42 días</title>
+		<link>https://www.meneame.net/story/rajoy-veta-16-leyes-sociales-oposicion-autonomias-42-dias</link>
+		<comments>https://www.meneame.net/story/rajoy-veta-16-leyes-sociales-oposicion-autonomias-42-dias</comments>
+		<pubDate>Wed, 30 Nov 2016 15:15:02 +0000</pubDate>
+		<dc:creator>yoshi_90</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[mariano rajoy]]></category>
+		<category><![CDATA[veto]]></category>
+		<category><![CDATA[leyes]]></category>
+		<category><![CDATA[lomce]]></category>
+		<category><![CDATA[justicia]]></category>
+		<category><![CDATA[sanidad]]></category>
+		<guid>https://www.meneame.net/story/rajoy-veta-16-leyes-sociales-oposicion-autonomias-42-dias</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/41/media_thumb-link-2703643.jpeg?1480507386' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El Gobierno de Rajoy ha aplicado el veto preventivo en numerosas proposiciones que afectan a los ámbitos de la educación o la sanidad, entre otros.</p><p><strong>etiquetas</strong>: mariano rajoy, veto, leyes, lomce, justicia, sanidad</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703643" >noticia original</a> (www.cuartopoder.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/41/media_thumb-link-2703643.jpeg?1480507386" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703643</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703641</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>enri4</meneame:user>
+		<meneame:clicks>672</meneame:clicks>
+		<meneame:votes>405</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>2556</meneame:karma>
+		<meneame:comments>99</meneame:comments>
+		<meneame:url>http://www.valenciaplaza.com/fallesunesco-las-fallas-son-declaradas-patrimonio-de-la-humanidad</meneame:url>
+		<title>Las Fallas de Valencia, declaradas Patrimonio Inmaterial de la Humanidad</title>
+		<link>https://www.meneame.net/story/fallas-valencia-declaradas-patrimonio-inmaterial-humanidad</link>
+		<comments>https://www.meneame.net/story/fallas-valencia-declaradas-patrimonio-inmaterial-humanidad</comments>
+		<pubDate>Wed, 30 Nov 2016 14:45:04 +0000</pubDate>
+		<dc:creator>enri4</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[fallas]]></category>
+		<category><![CDATA[unesco]]></category>
+		<guid>https://www.meneame.net/story/fallas-valencia-declaradas-patrimonio-inmaterial-humanidad</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/41/media_thumb-link-2703641.jpeg?1480506906' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El gran sueño se ha cumplido. El Comité Intergubernamental de la Unesco, reunido este miércoles en Addis Abeba, ha aprobado este miércoles la entrada de la fiesta de las Fallas en la Lista Representativa de Patrimonio Inmaterial de la Humanidad.</p><p><strong>etiquetas</strong>: fallas, unesco</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703641" >noticia original</a> (www.valenciaplaza.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/41/media_thumb-link-2703641.jpeg?1480506906" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703641</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702867</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>NOmefiodelosMedios</meneame:user>
+		<meneame:clicks>10606</meneame:clicks>
+		<meneame:votes>372</meneame:votes>
+		<meneame:negatives>16</meneame:negatives>
+		<meneame:karma>2229</meneame:karma>
+		<meneame:comments>93</meneame:comments>
+		<meneame:url>http://www.colectivoburbuja.org/manuel-sanchez/amazon-prime-now-y-el-servants-as-a-service/</meneame:url>
+		<title>Amazon Prime Now y el “Servants as a Service”</title>
+		<link>https://www.meneame.net/story/amazon-prime-now-servants-as-service</link>
+		<comments>https://www.meneame.net/story/amazon-prime-now-servants-as-service</comments>
+		<pubDate>Wed, 30 Nov 2016 14:15:10 +0000</pubDate>
+		<dc:creator>NOmefiodelosMedios</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[amazon]]></category>
+		<category><![CDATA[prime now]]></category>
+		<category><![CDATA[precariedad]]></category>
+		<category><![CDATA[explotación]]></category>
+		<category><![CDATA[robots]]></category>
+		<category><![CDATA[automatización]]></category>
+		<category><![CDATA[carmena]]></category>
+		<guid>https://www.meneame.net/story/amazon-prime-now-servants-as-service</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702867.jpeg?1480369807' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Todo empezó cuando recibí el mensaje de mi amigo (futuro socio): decía que había pedido “una cerveza” a domicilio y estaba esperando a que el GPS de Manuel, el repartidor, recalculara la ruta porque se había perdido un poco. Solté el libro de Paulo Coelho y me fui corriendo a su casa, sediento de cerveza y de respuestas. Por lo visto se había descargado la APP de Amazon Prime Now y ya no tendría que bajar al chino nunca más. A través de la APP se puede hacer seguimiento de nuestra cerveza e incluso llamar al repartidor mientras conduce, algo...</p><p><strong>etiquetas</strong>: amazon, prime now, precariedad, explotación, robots, automatización, carmena</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702867" >noticia original</a> (www.colectivoburbuja.org)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702867.jpeg?1480369807" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702867</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703435</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>milnovecientos</meneame:user>
+		<meneame:clicks>4844</meneame:clicks>
+		<meneame:votes>1065</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>5173</meneame:karma>
+		<meneame:comments>59</meneame:comments>
+		<meneame:url>http://www.elplural.com/politica/2016/11/29/el-alcalde-del-pp-de-guadalajara-se-enfada-porque-no-le-dejan-cobrar-tres</meneame:url>
+		<title>El alcalde del PP de Guadalajara se enfada porque no le dejan cobrar tres sueldos</title>
+		<link>https://www.meneame.net/story/alcalde-pp-guadalajara-enfada-porque-no-dejan-cobrar-tres</link>
+		<comments>https://www.meneame.net/story/alcalde-pp-guadalajara-enfada-porque-no-dejan-cobrar-tres</comments>
+		<pubDate>Wed, 30 Nov 2016 13:15:04 +0000</pubDate>
+		<dc:creator>milnovecientos</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[partido popular]]></category>
+		<category><![CDATA[corrupción]]></category>
+		<category><![CDATA[sueldos]]></category>
+		<category><![CDATA[guadalajara]]></category>
+		<category><![CDATA[plurisobres]]></category>
+		<guid>https://www.meneame.net/story/alcalde-pp-guadalajara-enfada-porque-no-dejan-cobrar-tres</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703435.jpeg?1480473007' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>PSOE, C’s y Ahora rechazan el pluriempleo de Antonio Román, que quiere añadir a los 60.000 euros otras nóminas</p><p><strong>etiquetas</strong>: partido popular, corrupción, sueldos, guadalajara, plurisobres</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703435" >noticia original</a> (www.elplural.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703435.jpeg?1480473007" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703435</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703549</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>nosoysacreew</meneame:user>
+		<meneame:clicks>2665</meneame:clicks>
+		<meneame:votes>171</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1377</meneame:karma>
+		<meneame:comments>25</meneame:comments>
+		<meneame:url>http://danielmarin.naukas.com/2016/11/30/soyuz-2lk-el-nuevo-cohete-ruso/</meneame:url>
+		<title>Soyuz 2LK, el nuevo cohete ruso</title>
+		<link>https://www.meneame.net/story/soyuz-2lk-nuevo-cohete-ruso</link>
+		<comments>https://www.meneame.net/story/soyuz-2lk-nuevo-cohete-ruso</comments>
+		<pubDate>Wed, 30 Nov 2016 12:45:06 +0000</pubDate>
+		<dc:creator>nosoysacreew</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[soyuz 2lk]]></category>
+		<category><![CDATA[nuevo]]></category>
+		<category><![CDATA[cohete]]></category>
+		<category><![CDATA[ruso]]></category>
+		<guid>https://www.meneame.net/story/soyuz-2lk-nuevo-cohete-ruso</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703549.jpeg?1480499346' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>¿Recuerdan la propuesta para desarrollar versiones de pequeño tamaño del cohete Protón (Protón Medium y Protón Light)? Pues la idea parece haber calado en el programa espacial ruso, porque ahora es la empresa RKTs Progress de Samara la que propone una nueva variante reducida del mítico cohete Soyuz. La propuesta ha recibido el nombre de Soyuz 2LK.</p><p><strong>etiquetas</strong>: soyuz 2lk, nuevo, cohete, ruso</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703549" >noticia original</a> (danielmarin.naukas.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703549.jpeg?1480499346" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703549</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703551</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>EfectoGamonal</meneame:user>
+		<meneame:clicks>1226</meneame:clicks>
+		<meneame:votes>1226</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>6361</meneame:karma>
+		<meneame:comments>34</meneame:comments>
+		<meneame:url>https://15mparato.wordpress.com/2016/11/30/acciones-legales-contra-cupula-banco-de-espana/</meneame:url>
+		<title>'15MpaRato' emprende acciones legales contra la cúpula del Banco de España por la salida a bolsa de Bankia</title>
+		<link>https://www.meneame.net/story/15mparato-emprende-acciones-legales-contra-cupula-banco-espana</link>
+		<comments>https://www.meneame.net/story/15mparato-emprende-acciones-legales-contra-cupula-banco-espana</comments>
+		<pubDate>Wed, 30 Nov 2016 12:10:02 +0000</pubDate>
+		<dc:creator>EfectoGamonal</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[15mparato]]></category>
+		<category><![CDATA[acciones legales]]></category>
+		<category><![CDATA[caso bankia]]></category>
+		<category><![CDATA[bolsa]]></category>
+		<category><![CDATA[banco de españa]]></category>
+		<guid>https://www.meneame.net/story/15mparato-emprende-acciones-legales-contra-cupula-banco-espana</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703551.jpeg?1480499526' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El juez de la Audiencia Nacional Fernando Andreu libró a ocho directivos de la entidad, entre ellos Miguel Ángel Fernández Ordoñez, y a la Comisión Nacional del Mercado de Valores (CNMV) de toda responsabilidad penal en esta estafa.</p><p><strong>etiquetas</strong>: 15mparato, acciones legales, caso bankia, bolsa, banco de españa</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703551" >noticia original</a> (15mparato.wordpress.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703551.jpeg?1480499526" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703551</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703612</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>OroborO</meneame:user>
+		<meneame:clicks>7386</meneame:clicks>
+		<meneame:votes>376</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2570</meneame:karma>
+		<meneame:comments>111</meneame:comments>
+		<meneame:url>http://www.omicrono.com/2016/11/big-bell-test-experimento-fisica/</meneame:url>
+		<title>Participa hoy junto a 30.000 personas en el experimento de física cuántica más grande del mundo</title>
+		<link>https://www.meneame.net/story/participa-hoy-experimento-fisica-cuantica-mas-grande-mundo</link>
+		<comments>https://www.meneame.net/story/participa-hoy-experimento-fisica-cuantica-mas-grande-mundo</comments>
+		<pubDate>Wed, 30 Nov 2016 11:50:12 +0000</pubDate>
+		<dc:creator>OroborO</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[big bell test]]></category>
+		<category><![CDATA[experimento]]></category>
+		<category><![CDATA[física]]></category>
+		<guid>https://www.meneame.net/story/participa-hoy-experimento-fisica-cuantica-mas-grande-mundo</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703612.jpeg?1480504806' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>&#34;¿Queréis participar en el experimento de física cuántica más grande de todo el mundo? Se llama Big Bell Test y sólo tendréis que ser aleatorios.&#34; Hoy, 30 de noviembre, comienza un gran experimento de física cuántica a nivel mundial, con el que se pretende poner fin a una disputa eterna sobre las bases de esta enrevesada ciencia. Gracias a este experimento en el que se pretende que participen al menos 30.000 voluntarios de todo el mundo, se espera que por fin tengamos una respuesta. Página del experimento: <a href="http://thebigbelltest.org/comic/?l=ES" title="thebigbelltest.org/comic/?l=ES" rel="nofollow">thebigbelltest.org/comic/?l=ES</a></p><p><strong>etiquetas</strong>: big bell test, experimento, física</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703612" >noticia original</a> (www.omicrono.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703612.jpeg?1480504806" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703612</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703522</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Q1ta</meneame:user>
+		<meneame:clicks>4372</meneame:clicks>
+		<meneame:votes>1341</meneame:votes>
+		<meneame:negatives>8</meneame:negatives>
+		<meneame:karma>6699</meneame:karma>
+		<meneame:comments>153</meneame:comments>
+		<meneame:url>http://muhimu.es/economia/los-suecos-lo-demostrado-la-jornada-6-horas-mas-productiva-la-8/</meneame:url>
+		<title>Los suecos lo han demostrado: la jornada de 6 horas es más productiva que la de 8</title>
+		<link>https://www.meneame.net/story/suecos-han-demostrado-jornada-6-horas-mas-productiva-8</link>
+		<comments>https://www.meneame.net/story/suecos-han-demostrado-jornada-6-horas-mas-productiva-8</comments>
+		<pubDate>Wed, 30 Nov 2016 11:50:03 +0000</pubDate>
+		<dc:creator>Q1ta</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[trabajo]]></category>
+		<category><![CDATA[suecia]]></category>
+		<category><![CDATA[jornada laboral]]></category>
+		<guid>https://www.meneame.net/story/suecos-han-demostrado-jornada-6-horas-mas-productiva-8</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703522.jpeg?1480497187' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Desde hace años, me preocupa que se confunda productividad con horas de trabajo. En España, abusamos mucho de las horas extra, las situaciones “esclavizadoras”… sobre todo porque al final, ni siquiera eso es bueno para la productividad de la empresa. Y no lo digo yo, lo han demostrado las políticas públicas de Suecia.</p><p><strong>etiquetas</strong>: trabajo, suecia, jornada laboral</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703522" >noticia original</a> (muhimu.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703522.jpeg?1480497187" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703522</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703538</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Caramierder</meneame:user>
+		<meneame:clicks>5639</meneame:clicks>
+		<meneame:votes>775</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>4146</meneame:karma>
+		<meneame:comments>157</meneame:comments>
+		<meneame:url>http://www.europapress.es/nacional/noticia-rajoy-avisa-iglesias-todo-diga-congreso-asumira-obligatorio-20161130101254.html</meneame:url>
+		<title>Rajoy avisa a Iglesias que, de todo lo que diga el Congreso, asumirá lo obligatorio</title>
+		<link>https://www.meneame.net/story/rajoy-avisa-iglesias-todo-diga-congreso-asumira-obligatorio</link>
+		<comments>https://www.meneame.net/story/rajoy-avisa-iglesias-todo-diga-congreso-asumira-obligatorio</comments>
+		<pubDate>Wed, 30 Nov 2016 10:20:13 +0000</pubDate>
+		<dc:creator>Caramierder</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[congreso]]></category>
+		<category><![CDATA[rajoy]]></category>
+		<category><![CDATA[pablo iglesias]]></category>
+		<category><![CDATA[podemos]]></category>
+		<category><![CDATA[gobierno]]></category>
+		<guid>https://www.meneame.net/story/rajoy-avisa-iglesias-todo-diga-congreso-asumira-obligatorio</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703538.jpeg?1480498446' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Rajoy avisa a Iglesias que, de todo lo que diga el Congreso, asumirá lo obligatorio. El secretario general de Podemos, Pablo Iglesias, ha exigido este miércoles al presidente del Gobierno, Mariano Rajoy, que acate y ponga en práctica las decisiones que tome el Parlamento porque es donde reside la soberanía nacional.</p><p><strong>etiquetas</strong>: congreso, rajoy, pablo iglesias, podemos, gobierno</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703538" >noticia original</a> (www.europapress.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703538.jpeg?1480498446" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703538</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703270</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>RosaLuxembourg</meneame:user>
+		<meneame:clicks>6073</meneame:clicks>
+		<meneame:votes>362</meneame:votes>
+		<meneame:negatives>6</meneame:negatives>
+		<meneame:karma>1881</meneame:karma>
+		<meneame:comments>67</meneame:comments>
+		<meneame:url>http://www.publico.es/politica/madrid-redescubre-refugio-guerra-civil.html</meneame:url>
+		<title>Madrid 'redescubre' un refugio de la Guerra Civil en el parque del Retiro</title>
+		<link>https://www.meneame.net/story/madrid-redescubre-refugio-guerra-civil-parque-retiro</link>
+		<comments>https://www.meneame.net/story/madrid-redescubre-refugio-guerra-civil-parque-retiro</comments>
+		<pubDate>Wed, 30 Nov 2016 09:45:02 +0000</pubDate>
+		<dc:creator>RosaLuxembourg</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[madrid]]></category>
+		<category><![CDATA[parque retiro]]></category>
+		<category><![CDATA[refugio]]></category>
+		<category><![CDATA[memoria histórica]]></category>
+		<category><![CDATA[guerra civil]]></category>
+		<guid>https://www.meneame.net/story/madrid-redescubre-refugio-guerra-civil-parque-retiro</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703270.jpeg?1480438806' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Madrid fue la primera capital europea en sufrir el bombardeo de la artillería enemiga, la franquista, y las cicatrices aún son visibles. En el Parque del Retiro hay varios refugios antiaéreos que utilizaba la población civil para defenderse de los bombardeos. Ahora, tras años de olvido, el Ayuntamiento de Madrid ha accedido a 'redescubrir' uno de estos refugios del Parque, que ha permanecido cerrado durante varias decenios y que es testigo indudable del asedio franquista a la ciudad de Madrid.</p><p><strong>etiquetas</strong>: madrid, parque retiro, refugio, memoria histórica, guerra civil</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703270" >noticia original</a> (www.publico.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703270.jpeg?1480438806" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703270</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703476</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>gobolino</meneame:user>
+		<meneame:clicks>5977</meneame:clicks>
+		<meneame:votes>178</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1420</meneame:karma>
+		<meneame:comments>48</meneame:comments>
+		<meneame:url>http://ed.ted.com/lessons/what-s-the-fastest-way-to-alphabetize-your-bookshelf-chand-john</meneame:url>
+		<title>La forma más rápida de ordenar alfabéticamente una librería (una metáfora sobre algoritmos de ordenación) [ENG]</title>
+		<link>https://www.meneame.net/story/forma-mas-rapida-ordenar-alfabeticamente-libreria-metafora-sobre</link>
+		<comments>https://www.meneame.net/story/forma-mas-rapida-ordenar-alfabeticamente-libreria-metafora-sobre</comments>
+		<pubDate>Wed, 30 Nov 2016 09:10:05 +0000</pubDate>
+		<dc:creator>gobolino</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[forma]]></category>
+		<category><![CDATA[rápida]]></category>
+		<category><![CDATA[ordenar]]></category>
+		<category><![CDATA[alfabéticamente]]></category>
+		<category><![CDATA[librería]]></category>
+		<category><![CDATA[algoritmos]]></category>
+		<guid>https://www.meneame.net/story/forma-mas-rapida-ordenar-alfabeticamente-libreria-metafora-sobre</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703476.jpeg?1480493287' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Trabajas en la biblioteca de una universidad. Es una tranquila tarde cuando, de repente, llega un cargamento de 1280 libros. Los libros, en línea recta, están completamente desordenados, y la máquina automática encargada de la labor de ordenación está estropeada. ¿Cuál sería la forma más rápida de ordenarlos? El vídeo es, en realidad, una metáfora para hablar de forma educativa sobre la eficiencia de diferentes algoritmos de ordenación, algo comúnmente utilizado en diversas tareas de programación informática para todo tipo de situaciones.</p><p><strong>etiquetas</strong>: forma, rápida, ordenar, alfabéticamente, librería, algoritmos</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703476" >noticia original</a> (ed.ted.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703476.jpeg?1480493287" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703476</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703290</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Martina08</meneame:user>
+		<meneame:clicks>5183</meneame:clicks>
+		<meneame:votes>1484</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>7254</meneame:karma>
+		<meneame:comments>168</meneame:comments>
+		<meneame:url>http://elperiodicodelaenergia.com/alvaro-nadal-mantendra-el-impuesto-al-sol-para-evitar-ventajas-del-autoconsumidor-con-2-000-metros-de-jardin/</meneame:url>
+		<title>Álvaro Nadal mantendrá el ‘impuesto al sol’ para evitar ventajas del autoconsumidor “con 2.000 metros de jardín”</title>
+		<link>https://www.meneame.net/story/alvaro-nadal-mantendra-impuesto-sol-evitar-ventajas-2-000-metros</link>
+		<comments>https://www.meneame.net/story/alvaro-nadal-mantendra-impuesto-sol-evitar-ventajas-2-000-metros</comments>
+		<pubDate>Wed, 30 Nov 2016 08:55:03 +0000</pubDate>
+		<dc:creator>Martina08</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[impuesto al sol]]></category>
+		<category><![CDATA[peaje de respaldo]]></category>
+		<category><![CDATA[autoconsumo]]></category>
+		<category><![CDATA[alvaro nadal]]></category>
+		<category><![CDATA[energía]]></category>
+		<guid>https://www.meneame.net/story/alvaro-nadal-mantendra-impuesto-sol-evitar-ventajas-2-000-metros</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703290.jpeg?1480445526' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El ministro de Energía, Turismo y Agenda Digital, Álvaro Nadal, ha rechazado excluir a los productores de autoconsumo del pago de los costes fijos del sistema</p><p><strong>etiquetas</strong>: impuesto al sol, peaje de respaldo, autoconsumo, alvaro nadal, energía</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703290" >noticia original</a> (elperiodicodelaenergia.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703290.jpeg?1480445526" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703290</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703454</meneame:link_id>
+		<meneame:sub>ocio</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>yokiero</meneame:user>
+		<meneame:clicks>4373</meneame:clicks>
+		<meneame:votes>1168</meneame:votes>
+		<meneame:negatives>9</meneame:negatives>
+		<meneame:karma>5937</meneame:karma>
+		<meneame:comments>73</meneame:comments>
+		<meneame:url>http://www.elmundotoday.com/2016/11/la-policia-detiene-a-un-grupo-de-adolescentes-que-estudiaban-filosofia-al-salir-del-instituto/</meneame:url>
+		<title>La Policía detiene a un grupo de adolescentes que estudiaban Filosofía al salir del instituto</title>
+		<link>https://www.meneame.net/story/policia-detiene-grupo-adolescentes-estudiaban-filosofia-salir</link>
+		<comments>https://www.meneame.net/story/policia-detiene-grupo-adolescentes-estudiaban-filosofia-salir</comments>
+		<pubDate>Wed, 30 Nov 2016 07:55:04 +0000</pubDate>
+		<dc:creator>yokiero</dc:creator>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[filosofía]]></category>
+		<category><![CDATA[policía]]></category>
+		<category><![CDATA[humor]]></category>
+		<guid>https://www.meneame.net/story/policia-detiene-grupo-adolescentes-estudiaban-filosofia-salir</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703454.jpeg?1480487706' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Tras las denuncias de varios profesores, la Policía Nacional ha arrestado esta mañana a ocho adolescentes de Badalona que se reunían para estudiar Filosofía a la salida del instituto. Los jóvenes desafiaban así la política educativa del Gobierno, que ha desterrado esta materia de los planes de estudios.</p><p><strong>etiquetas</strong>: filosofía, policía, humor</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703454" >noticia original</a> (www.elmundotoday.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703454.jpeg?1480487706" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703454</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702971</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Danichaguito</meneame:user>
+		<meneame:clicks>5376</meneame:clicks>
+		<meneame:votes>719</meneame:votes>
+		<meneame:negatives>13</meneame:negatives>
+		<meneame:karma>3512</meneame:karma>
+		<meneame:comments>95</meneame:comments>
+		<meneame:url>http://www.eldiario.es/politica/secretos-Transicion-golpe-Congreso_0_585142091.html</meneame:url>
+		<title>Siete secretos del 23F y la Transición que podrías llegar a saber si hoy quiere el Congreso</title>
+		<link>https://www.meneame.net/story/siete-secretos-23f-transicion-podrias-llegar-saber-hoy-quiere</link>
+		<comments>https://www.meneame.net/story/siete-secretos-23f-transicion-podrias-llegar-saber-hoy-quiere</comments>
+		<pubDate>Wed, 30 Nov 2016 05:05:03 +0000</pubDate>
+		<dc:creator>Danichaguito</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[desclasificación]]></category>
+		<category><![CDATA[23f]]></category>
+		<category><![CDATA[transición]]></category>
+		<category><![CDATA[congreso]]></category>
+		<category><![CDATA[pnv]]></category>
+		<category><![CDATA[eta]]></category>
+		<category><![CDATA[secreto oficial]]></category>
+		<guid>https://www.meneame.net/story/siete-secretos-23f-transicion-podrias-llegar-saber-hoy-quiere</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702971.jpeg?1480407666' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>¿El rey Juan Carlos sabía algo del golpe antes de producirse? ¿Felipe González aceptó ser vicepresidente del general Alfonso Armada? ¿Servicios secretos extranjeros conocían los planes de ETA para atentar contra Carrero Blanco?.Este martes el PNV lleva una proposición de ley para limitar a 35 años los secretos oficiales, lo que abriría la puerta a conocer lo que ocurrió antes del 23F de 1981. La actual ley, preconstitucional, establece que &#34;la cancelación&#34; de la calificación de secreto &#34;será dispuesta por el órgano que hizo la respectiva..</p><p><strong>etiquetas</strong>: desclasificación, 23f, transición, congreso, pnv, eta, secreto oficial</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702971" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702971.jpeg?1480407666" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702971</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702270</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>elLocoDelMolino</meneame:user>
+		<meneame:clicks>3183</meneame:clicks>
+		<meneame:votes>360</meneame:votes>
+		<meneame:negatives>5</meneame:negatives>
+		<meneame:karma>1864</meneame:karma>
+		<meneame:comments>86</meneame:comments>
+		<meneame:url>http://magnet.xataka.com/en-diez-minutos/las-cosas-que-mejor-recuerdas-son-las-que-te-pasaron-cuando-tenias-entre-15-y-25-anos</meneame:url>
+		<title>Las cosas que mejor recuerdas son las que te pasaron cuando tenías entre 15 y 25 años</title>
+		<link>https://www.meneame.net/story/cosas-mejor-recuerdas-son-pasaron-cuando-tenias-entre-15-25-anos</link>
+		<comments>https://www.meneame.net/story/cosas-mejor-recuerdas-son-pasaron-cuando-tenias-entre-15-25-anos</comments>
+		<pubDate>Tue, 29 Nov 2016 23:30:05 +0000</pubDate>
+		<dc:creator>elLocoDelMolino</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[curva de la memoria]]></category>
+		<category><![CDATA[juventud]]></category>
+		<category><![CDATA[identidad]]></category>
+		<category><![CDATA[chris moulin]]></category>
+		<category><![CDATA[akira oconnor]]></category>
+		<guid>https://www.meneame.net/story/cosas-mejor-recuerdas-son-pasaron-cuando-tenias-entre-15-25-anos</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3b/media_thumb-link-2702270.jpeg?1480258566' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Pregúntale a alguien sobre las cosas que mejor recuerda y la mayoría habrán pasado entre los 15 y los 25. Da igual que sean temas de actualidad, eventos deportivos o públicos: pueden ser ganadores de los Óscar, canciones del verano, libros o recuerdos personales. Los que nos dedicamos a investigar la memoria llamamos a este periodo de 10 años “la curva de los recuerdos” en referencia a la forma que toma si tenemos en cuenta conjunto de recuerdos de toda la vida de una persona. Más información en inglés goo.gl/090CB4</p><p><strong>etiquetas</strong>: curva de la memoria, juventud, identidad, chris moulin, akira oconnor</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702270" >noticia original</a> (magnet.xataka.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3b/media_thumb-link-2702270.jpeg?1480258566" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702270</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702756</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>doctoragridulce</meneame:user>
+		<meneame:clicks>4873</meneame:clicks>
+		<meneame:votes>922</meneame:votes>
+		<meneame:negatives>14</meneame:negatives>
+		<meneame:karma>4343</meneame:karma>
+		<meneame:comments>95</meneame:comments>
+		<meneame:url>http://diario16.com/pobreza-en-espana-15-datos-para-la-verguenza/</meneame:url>
+		<title>Pobreza en España: 15 datos para la vergüenza</title>
+		<link>https://www.meneame.net/story/pobreza-espana-15-datos-verguenza</link>
+		<comments>https://www.meneame.net/story/pobreza-espana-15-datos-verguenza</comments>
+		<pubDate>Tue, 29 Nov 2016 21:50:08 +0000</pubDate>
+		<dc:creator>doctoragridulce</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[pobreza]]></category>
+		<category><![CDATA[españa]]></category>
+		<category><![CDATA[datos]]></category>
+		<category><![CDATA[vergüenza]]></category>
+		<category><![CDATA[desigualdad]]></category>
+		<category><![CDATA[ue]]></category>
+		<guid>https://www.meneame.net/story/pobreza-espana-15-datos-verguenza</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702756.jpeg?1480356366' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>En España, el indicador de riesgo de pobreza y exclusión (AROPE) alcanza, en 2015, el 28,6 por ciento de la población: 13.334.573 personas viven en riesgo de pobreza y exclusión. (En la Unión Europea de los 28, el AROPE llega al 24,4 por ciento de la población: 122,3 millones de personas). España es el tercer país con mayor desigualdad de la UE, después de Rumania y Serbia: El 10 por ciento más rico obtiene una cuarta parte de los ingresos de toda la población.</p><p><strong>etiquetas</strong>: pobreza, españa, datos, vergüenza, desigualdad, ue</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702756" >noticia original</a> (diario16.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702756.jpeg?1480356366" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702756</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703363</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>porcorosso</meneame:user>
+		<meneame:clicks>2496</meneame:clicks>
+		<meneame:votes>1273</meneame:votes>
+		<meneame:negatives>5</meneame:negatives>
+		<meneame:karma>6710</meneame:karma>
+		<meneame:comments>128</meneame:comments>
+		<meneame:url>http://www.europapress.es/nacional/noticia-pp-rechaza-derogar-ley-mordaza-espana-no-cuba-venezuela-20161129212126.html</meneame:url>
+		<title>El PP rechaza derogar la 'ley Mordaza': &#34;España no es ni Cuba ni Venezuela&#34;</title>
+		<link>https://www.meneame.net/story/pp-rechaza-derogar-ley-mordaza-espana-no-ni-cuba-ni-venezuela</link>
+		<comments>https://www.meneame.net/story/pp-rechaza-derogar-ley-mordaza-espana-no-ni-cuba-ni-venezuela</comments>
+		<pubDate>Tue, 29 Nov 2016 21:15:05 +0000</pubDate>
+		<dc:creator>porcorosso</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ley mordaza]]></category>
+		<category><![CDATA[pp]]></category>
+		<guid>https://www.meneame.net/story/pp-rechaza-derogar-ley-mordaza-espana-no-ni-cuba-ni-venezuela</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/40/media_thumb-link-2703363.jpeg?1480452307' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El Partido Popular ha rechazado este martes en el Congreso derogar la Ley de Seguridad Ciudadana aprobada en 2015, bautizada por sus detractores como 'Ley Mordaza', alegando que es una norma necesaria para hacer frente a la amenaza del terrorismo yihadista. &#34;Es una ley garantista porque España no es Cuba ni Venezuela&#34;, ha defendido el diputado 'popular' José Alberto Martín-Toledano</p><p><strong>etiquetas</strong>: ley mordaza, pp</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703363" >noticia original</a> (www.europapress.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/40/media_thumb-link-2703363.jpeg?1480452307" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703363</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702580</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>mr_b</meneame:user>
+		<meneame:clicks>3485</meneame:clicks>
+		<meneame:votes>192</meneame:votes>
+		<meneame:negatives>2</meneame:negatives>
+		<meneame:karma>1593</meneame:karma>
+		<meneame:comments>97</meneame:comments>
+		<meneame:url>http://www.nytimes.com/2016/11/25/world/what-in-the-world/click-languages-taa-xoon-xoo-botswana.html</meneame:url>
+		<title>¿Qué idioma usa el mayor número de sonidos? [ENG]</title>
+		<link>https://www.meneame.net/story/idioma-usa-mayor-numero-sonidos-eng</link>
+		<comments>https://www.meneame.net/story/idioma-usa-mayor-numero-sonidos-eng</comments>
+		<pubDate>Tue, 29 Nov 2016 20:45:11 +0000</pubDate>
+		<dc:creator>mr_b</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[idioma]]></category>
+		<category><![CDATA[mayor número]]></category>
+		<category><![CDATA[sonidos]]></category>
+		<category><![CDATA[taa]]></category>
+		<category><![CDATA[namibia]]></category>
+		<category><![CDATA[botswana]]></category>
+		<guid>https://www.meneame.net/story/idioma-usa-mayor-numero-sonidos-eng</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702580.jpeg?1480333866' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Con cinco tipos de clics, varios tonos y vocales estridentes —vocalizadas con un sonido rápido y sofocado—, el idioma Taa, hablado por unos pocos miles de personas en Botswana y Namibia, es el idioma que muchos lingüistas creen que más sonidos tiene del mundo. El número exacto difiere dependiendo del estudio, pero se cree los sonidos de consonantes están entre 100 y 164 junto a 44 sonidos vocálicos. El inglés, por comparar, usa 45 sonidos diferentes en total.</p><p><strong>etiquetas</strong>: idioma, mayor número, sonidos, taa, namibia, botswana</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702580" >noticia original</a> (www.nytimes.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702580.jpeg?1480333866" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702580</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703311</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>rataxuelle</meneame:user>
+		<meneame:clicks>3986</meneame:clicks>
+		<meneame:votes>1716</meneame:votes>
+		<meneame:negatives>74</meneame:negatives>
+		<meneame:karma>7799</meneame:karma>
+		<meneame:comments>115</meneame:comments>
+		<meneame:url>http://www.eldiario.es/rastreador/Albert-Rivera-presumia-maternal-demandado_6_585551468.html</meneame:url>
+		<title>Cuando Albert Rivera presumía de la jefa de prensa de baja maternal que le ha demandado por acoso laboral</title>
+		<link>https://www.meneame.net/story/cuando-albert-rivera-presumia-jefa-prensa-baja-maternal-ha-acoso</link>
+		<comments>https://www.meneame.net/story/cuando-albert-rivera-presumia-jefa-prensa-baja-maternal-ha-acoso</comments>
+		<pubDate>Tue, 29 Nov 2016 20:05:05 +0000</pubDate>
+		<dc:creator>rataxuelle</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[albert]]></category>
+		<category><![CDATA[rivera]]></category>
+		<category><![CDATA[ciudadanos]]></category>
+		<category><![CDATA[acoso]]></category>
+		<guid>https://www.meneame.net/story/cuando-albert-rivera-presumia-jefa-prensa-baja-maternal-ha-acoso</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703311.jpeg?1480443846' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Durante el debate con Pablo Iglesias en octubre de 2015 en 'Salvados', Rivera &#34;rendía tributo&#34; a su jefa de prensa y contaba que había tenido gemelos para justificar que su equipo fuese íntegramente masculino. Hoy se ha hecho público que Ciudadanos le ha indemnizado con 153.000 euros para evitar un juicio después de que ella les demandase por relegarla,&#34;ignorarla y excluirla&#34; y &#34;realizar actos de clara humillación&#34; por esa baja. <a href="https://www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1" title="www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1" rel="nofollow">www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1</a></p><p><strong>etiquetas</strong>: albert, rivera, ciudadanos, acoso</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703311" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703311.jpeg?1480443846" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703311</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703248</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Blackheart</meneame:user>
+		<meneame:clicks>7486</meneame:clicks>
+		<meneame:votes>684</meneame:votes>
+		<meneame:negatives>15</meneame:negatives>
+		<meneame:karma>3922</meneame:karma>
+		<meneame:comments>159</meneame:comments>
+		<meneame:url>http://www.vozpopuli.com/memesis/negacionistas-holocausto-pruebas-conspiranoicos_0_976103722.html</meneame:url>
+		<title>El día que unos negacionistas ofrecieron 40.000€ a quien demostrara el Holocausto y un juez les obligó a pagar el doble</title>
+		<link>https://www.meneame.net/story/dia-unos-negacionistas-ofrecieron-40-000e-quien-demostrara-juez</link>
+		<comments>https://www.meneame.net/story/dia-unos-negacionistas-ofrecieron-40-000e-quien-demostrara-juez</comments>
+		<pubDate>Tue, 29 Nov 2016 17:40:09 +0000</pubDate>
+		<dc:creator>Blackheart</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[negacionismo]]></category>
+		<category><![CDATA[holocausto]]></category>
+		<category><![CDATA[juez]]></category>
+		<category><![CDATA[recompensa]]></category>
+		<guid>https://www.meneame.net/story/dia-unos-negacionistas-ofrecieron-40-000e-quien-demostrara-juez</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703248.jpeg?1480436706' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Ocurrió en 1985 y muy pocos historiadores y columnistas han recuperado aquella lección que nos deja la jurisprudencia histórica para instruir a los fanatismos que vienen. Todo empezó con las ideas de David McCalden (1951-1990), miembro del Frente Nacional británico de principio de los setenta y cofundador del Instituto para la Revisión Histórica; una organización antisemita cuya única misión durante décadas ha sido fabricar y distribuir propaganda negacionista. Todavía hoy cuenta con millones de fans.</p><p><strong>etiquetas</strong>: negacionismo, holocausto, juez, recompensa</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703248" >noticia original</a> (www.vozpopuli.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703248.jpeg?1480436706" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703248</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702954</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>alfanore85</meneame:user>
+		<meneame:clicks>3954</meneame:clicks>
+		<meneame:votes>706</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>3657</meneame:karma>
+		<meneame:comments>183</meneame:comments>
+		<meneame:url>http://www.elconfidencial.com/empresas/2016-11-29/banca-vender-pisos-jp-morgan-banco-espana-inmobiliario_1296122/</meneame:url>
+		<title>La banca española tardará 10 años en vender sus pisos... y no piensa darse más prisa</title>
+		<link>https://www.meneame.net/story/banca-espanola-tardara-10-anos-vender-pisos-no-piensa-darse-mas</link>
+		<comments>https://www.meneame.net/story/banca-espanola-tardara-10-anos-vender-pisos-no-piensa-darse-mas</comments>
+		<pubDate>Tue, 29 Nov 2016 15:45:05 +0000</pubDate>
+		<dc:creator>alfanore85</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[banca]]></category>
+		<category><![CDATA[española]]></category>
+		<category><![CDATA[tardará]]></category>
+		<category><![CDATA[10]]></category>
+		<category><![CDATA[años]]></category>
+		<category><![CDATA[vender]]></category>
+		<category><![CDATA[pisos]]></category>
+		<guid>https://www.meneame.net/story/banca-espanola-tardara-10-anos-vender-pisos-no-piensa-darse-mas</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702954.jpeg?1480405446' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Mercado inmobiliario: La banca española tardará 10 años en vender sus pisos... y no piensa darse más prisa. Noticias de Empresas. Al ritmo actual, la banca española tardará 10 años como media en vender sus activos inmobiliarios. Y aunque mantenerlos tiene un coste, prefiere esperar a que suban los precios</p><p><strong>etiquetas</strong>: banca, española, tardará, 10, años, vender, pisos</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702954" >noticia original</a> (www.elconfidencial.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702954.jpeg?1480405446" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702954</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703118</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Motiarti</meneame:user>
+		<meneame:clicks>4590</meneame:clicks>
+		<meneame:votes>1990</meneame:votes>
+		<meneame:negatives>6</meneame:negatives>
+		<meneame:karma>10125</meneame:karma>
+		<meneame:comments>229</meneame:comments>
+		<meneame:url>http://www.eldiario.es/economia/Pipas-Facundo-amnistiado-Montoro-laboral_0_585491618.html</meneame:url>
+		<title>El dueño de Pipas Facundo, amnistiado por Montoro: “Que no se dé ni un solo paso atrás en la reforma laboral”</title>
+		<link>https://www.meneame.net/story/dueno-pipas-facundo-amnistiado-montoro-no-ni-solo-paso-atras</link>
+		<comments>https://www.meneame.net/story/dueno-pipas-facundo-amnistiado-montoro-no-ni-solo-paso-atras</comments>
+		<pubDate>Tue, 29 Nov 2016 14:40:02 +0000</pubDate>
+		<dc:creator>Motiarti</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[reforma laboral]]></category>
+		<category><![CDATA[montoro]]></category>
+		<category><![CDATA[amnistía fiscal]]></category>
+		<category><![CDATA[villagrá]]></category>
+		<guid>https://www.meneame.net/story/dueno-pipas-facundo-amnistiado-montoro-no-ni-solo-paso-atras</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703118.jpeg?1480424046' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El presidente de la Cámara de Comercio de Palencia y propietario del grupo de aperitivos Pipas Facundo, Vicente Villagrá, que se acogió a la amnistía fiscal de 2012, ha reaparecido para pedir al nuevo Gobierno “que no se dé ni un solo paso atrás en la reforma laboral” que puso en marcha ese año el Ejecutivo de Mariano Rajoy.</p><p><strong>etiquetas</strong>: reforma laboral, montoro, amnistía fiscal, villagrá</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703118" >noticia original</a> (www.eldiario.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703118.jpeg?1480424046" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703118</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703127</meneame:link_id>
+		<meneame:sub>ocio</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ignorantia</meneame:user>
+		<meneame:clicks>4303</meneame:clicks>
+		<meneame:votes>549</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>3255</meneame:karma>
+		<meneame:comments>62</meneame:comments>
+		<meneame:url>http://www.publico.es/culturas/entrevista-faemino-cansado.html</meneame:url>
+		<title>Faemino y Cansado: &#34;El humor carece de límites, no hay chiste cruel sino malo&#34;</title>
+		<link>https://www.meneame.net/story/faemino-cansado-humor-carece-limites-no-hay-chiste-cruel-sino</link>
+		<comments>https://www.meneame.net/story/faemino-cansado-humor-carece-limites-no-hay-chiste-cruel-sino</comments>
+		<pubDate>Tue, 29 Nov 2016 14:30:03 +0000</pubDate>
+		<dc:creator>Ignorantia</dc:creator>
+		<category><![CDATA[ocio]]></category>
+		<category><![CDATA[entrevista]]></category>
+		<category><![CDATA[faemino y cansado]]></category>
+		<category><![CDATA[humor]]></category>
+		<guid>https://www.meneame.net/story/faemino-cansado-humor-carece-limites-no-hay-chiste-cruel-sino</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3f/media_thumb-link-2703127.jpeg?1480424466' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La pareja de hecho más longeva del humorismo patrio sigue al pie del cañón con el espectáculo; &#34;¡Quien tuvo, retuvo!&#34;. &#34;En España, la muerte edulcora al personaje&#34;, afirman.</p><p><strong>etiquetas</strong>: entrevista, faemino y cansado, humor</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703127" >noticia original</a> (www.publico.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3f/media_thumb-link-2703127.jpeg?1480424466" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703127</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702215</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Fortuna</meneame:user>
+		<meneame:clicks>4814</meneame:clicks>
+		<meneame:votes>323</meneame:votes>
+		<meneame:negatives>9</meneame:negatives>
+		<meneame:karma>1889</meneame:karma>
+		<meneame:comments>44</meneame:comments>
+		<meneame:url>http://francis.naukas.com/2016/11/26/video-de-mi-conferencia-la-naturaleza-cuantica-del-espacio-tiempo/</meneame:url>
+		<title>La naturaleza cuántica del espacio-tiempo</title>
+		<link>https://www.meneame.net/story/video-conferencia-francisco-r-villatoro-naturaleza-cuantica</link>
+		<comments>https://www.meneame.net/story/video-conferencia-francisco-r-villatoro-naturaleza-cuantica</comments>
+		<pubDate>Tue, 29 Nov 2016 13:30:05 +0000</pubDate>
+		<dc:creator>Fortuna</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[física cuántica]]></category>
+		<category><![CDATA[espacio-tiempo]]></category>
+		<category><![CDATA[campos]]></category>
+		<category><![CDATA[partículas]]></category>
+		<category><![CDATA[relatividad]]></category>
+		<guid>https://www.meneame.net/story/video-conferencia-francisco-r-villatoro-naturaleza-cuantica</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3b/media_thumb-link-2702215.jpeg?1480246806' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Te recomiendo disfrutar del vídeo en youtube de mi conferencia (Francisco Villatoro) en Sevilla “La naturaleza cuántica del espacio-tiempo”. Fue organizada por Foro de Análisis el pasado viernes 25 de noviembre de 2016 en la Facultad de Filosofía de la Universidad de Sevilla. El tema es complicado (no sabemos aún la respuesta), pero mi idea era motivar a los asistentes a profundizar mostrando algunas de las ideas que podrían conducir a la solución. ¡Qué la disfrutes!</p><p><strong>etiquetas</strong>: física cuántica, espacio-tiempo, campos, partículas, relatividad</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702215" >noticia original</a> (francis.naukas.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3b/media_thumb-link-2702215.jpeg?1480246806" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702215</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2703024</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>bomowski</meneame:user>
+		<meneame:clicks>36439</meneame:clicks>
+		<meneame:votes>558</meneame:votes>
+		<meneame:negatives>11</meneame:negatives>
+		<meneame:karma>3357</meneame:karma>
+		<meneame:comments>194</meneame:comments>
+		<meneame:url>http://www.motorpasion.com/otros/manias-estropear-coche</meneame:url>
+		<title>Nueve hábitos muy comunes con los que estás rompiendo tu coche</title>
+		<link>https://www.meneame.net/story/nueve-habitos-muy-comunes-estas-rompiendo-tu-coche</link>
+		<comments>https://www.meneame.net/story/nueve-habitos-muy-comunes-estas-rompiendo-tu-coche</comments>
+		<pubDate>Tue, 29 Nov 2016 11:55:06 +0000</pubDate>
+		<dc:creator>bomowski</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[coches]]></category>
+		<category><![CDATA[motor]]></category>
+		<category><![CDATA[conductores]]></category>
+		<guid>https://www.meneame.net/story/nueve-habitos-muy-comunes-estas-rompiendo-tu-coche</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2703024.jpeg?1480414386' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Hay mucho que escribir sobre eso, pero vamos a centrarnos en esas costumbres, manías o vicios que tenemos y que muchas veces desconocemos que le hacen mucho daño a nuestro coche. Porque no sé si sabías que un gesto tan común y aparentemente inofensivo como dejar la mano apoyada en la palanca del cambio es dañino para tu vehículo.</p><p><strong>etiquetas</strong>: coches, motor, conductores</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2703024" >noticia original</a> (www.motorpasion.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2703024.jpeg?1480414386" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2703024</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702880</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>ccguy</meneame:user>
+		<meneame:clicks>5456</meneame:clicks>
+		<meneame:votes>217</meneame:votes>
+		<meneame:negatives>6</meneame:negatives>
+		<meneame:karma>1568</meneame:karma>
+		<meneame:comments>83</meneame:comments>
+		<meneame:url>http://www.bbc.com/mundo/noticias-38130859</meneame:url>
+		<title>Por qué es importante el número primo con 9,3 millones de dígitos que acaban de descubrir</title>
+		<link>https://www.meneame.net/story/importante-numero-primo-9-3-millones-digitos-acaban-descubrir</link>
+		<comments>https://www.meneame.net/story/importante-numero-primo-9-3-millones-digitos-acaban-descubrir</comments>
+		<pubDate>Tue, 29 Nov 2016 11:05:05 +0000</pubDate>
+		<dc:creator>ccguy</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[número primo]]></category>
+		<category><![CDATA[sierpinski]]></category>
+		<category><![CDATA[problema]]></category>
+		<guid>https://www.meneame.net/story/importante-numero-primo-9-3-millones-digitos-acaban-descubrir</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702880.jpeg?1480372206' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Este descubrimiento no sólo es especial por su longitud, sino también porque nos acerca más a resolver un problema matemático de más de 50 años: El problema de Sierpinski, a quien se le ocurrió preguntar cuál era el menor número natural posible, que fuera impar y que, al ser multiplicado por 2 elevado a la n + 1, su resultado no fuera un número primo. Ya se sabía que 78.557 era uno de los números de Sierpinski. Los otros seis candidatos (10.223, 21.181, 22.699, 24.737, 55.459 y 67.607) no habían podido ser comprobados.</p><p><strong>etiquetas</strong>: número primo, sierpinski, problema</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702880" >noticia original</a> (www.bbc.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702880.jpeg?1480372206" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702880</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702926</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>camero500</meneame:user>
+		<meneame:clicks>5361</meneame:clicks>
+		<meneame:votes>444</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>2631</meneame:karma>
+		<meneame:comments>160</meneame:comments>
+		<meneame:url>http://www.el-nacional.com/ciencia_y_ambiente/Cientificos-primera-robotica-puede-polinizar_0_966503624.html</meneame:url>
+		<title>Científicos crean primera abeja robótica que puede polinizar</title>
+		<link>https://www.meneame.net/story/cientificos-crean-primera-abeja-robotica-puede-polinizar</link>
+		<comments>https://www.meneame.net/story/cientificos-crean-primera-abeja-robotica-puede-polinizar</comments>
+		<pubDate>Tue, 29 Nov 2016 09:20:03 +0000</pubDate>
+		<dc:creator>camero500</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[abejas]]></category>
+		<category><![CDATA[robótica]]></category>
+		<category><![CDATA[polinización]]></category>
+		<guid>https://www.meneame.net/story/cientificos-crean-primera-abeja-robotica-puede-polinizar</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702926.jpeg?1480395006' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Científicos de la Universidad Politécnica de Varsovia han creado la primera abeja robótica diseñada para polinizar artificialmente, un dron miniaturizado que es capaz de encontrar una flor, recoger su polen, y transferirlo cuidadosamente de la flor masculina a la femenina para fertilizarla.</p><p><strong>etiquetas</strong>: abejas, robótica, polinización</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702926" >noticia original</a> (www.el-nacional.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702926.jpeg?1480395006" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702926</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702966</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Harkon</meneame:user>
+		<meneame:clicks>2451</meneame:clicks>
+		<meneame:votes>330</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>2074</meneame:karma>
+		<meneame:comments>98</meneame:comments>
+		<meneame:url>http://www.elespanol.com/economia/empresas/20161129/174482713_0.html</meneame:url>
+		<title>Indra lanza una OPA sobre Tecnocom para adquirirla por 300 millones de euros</title>
+		<link>https://www.meneame.net/story/indra-lanza-opa-sobre-tecnocom-adquirirla-300-millones-euros</link>
+		<comments>https://www.meneame.net/story/indra-lanza-opa-sobre-tecnocom-adquirirla-300-millones-euros</comments>
+		<pubDate>Tue, 29 Nov 2016 09:15:04 +0000</pubDate>
+		<dc:creator>Harkon</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[indra]]></category>
+		<category><![CDATA[opa]]></category>
+		<category><![CDATA[tecnocom]]></category>
+		<category><![CDATA[adquirirla]]></category>
+		<category><![CDATA[300]]></category>
+		<category><![CDATA[millones]]></category>
+		<guid>https://www.meneame.net/story/indra-lanza-opa-sobre-tecnocom-adquirirla-300-millones-euros</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702966.jpeg?1480407186' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La tecnológica española Indra ha anunciado que lanzará una oferta pública de adquisición de acciones (OPA) por el 100% de la empresa Tecnocom. La compañía ha alcanzado un acuerdo irrevocable con accionistas que controlan el 52,7% de su capital. La operación, valorada en 305 millones de euros si se excluye la autocartera, será cubierta en una oferta mixta de efectivo (60%) y acciones (40%).</p><p><strong>etiquetas</strong>: indra, opa, tecnocom, adquirirla, 300, millones</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702966" >noticia original</a> (www.elespanol.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702966.jpeg?1480407186" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702966</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702944</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>WaltGro</meneame:user>
+		<meneame:clicks>5708</meneame:clicks>
+		<meneame:votes>1155</meneame:votes>
+		<meneame:negatives>28</meneame:negatives>
+		<meneame:karma>5903</meneame:karma>
+		<meneame:comments>114</meneame:comments>
+		<meneame:url>https://elventano.es/2016/11/ciudadanos-indemniza-con-153-000-euros-a-su-exjefa-de-prensa-que-denuncio-acoso-laboral-tras-quedarse-embarazada.html</meneame:url>
+		<title>Ciudadanos indemniza a su exjefa de prensa</title>
+		<link>https://www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1</link>
+		<comments>https://www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1</comments>
+		<pubDate>Tue, 29 Nov 2016 08:10:06 +0000</pubDate>
+		<dc:creator>WaltGro</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ciudadanos]]></category>
+		<category><![CDATA[indemniza]]></category>
+		<category><![CDATA[demanda]]></category>
+		<category><![CDATA[acoso]]></category>
+		<category><![CDATA[laboral]]></category>
+		<guid>https://www.meneame.net/story/ciudadanos-indemniza-exjefa-prensa-1</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3e/media_thumb-link-2702944.jpeg?1480402026' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Para evitar ir a juicio, Ciudadanos ha indemnizado con 153.000 euros netos a su exjefa de prensa, Imma Lucas, después de que ella demandara al partido y a sus dirigentes por acoso laboral. Contratada por Albert Rivera en 2009, Lucas fue una pieza clave para el partido...</p><p><strong>etiquetas</strong>: ciudadanos, indemniza, demanda, acoso, laboral</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702944" >noticia original</a> (elventano.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3e/media_thumb-link-2702944.jpeg?1480402026" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702944</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702929</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>kimnet</meneame:user>
+		<meneame:clicks>4395</meneame:clicks>
+		<meneame:votes>457</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>2959</meneame:karma>
+		<meneame:comments>92</meneame:comments>
+		<meneame:url>http://www.dw.com/es/accidente-de-avión-en-colombia-con-72-personas-a-bordo/a-36565353</meneame:url>
+		<title>Accidente de avión en Colombia con 81 personas a bordo</title>
+		<link>https://www.meneame.net/story/accidente-avion-colombia-72-personas-bordo</link>
+		<comments>https://www.meneame.net/story/accidente-avion-colombia-72-personas-bordo</comments>
+		<pubDate>Tue, 29 Nov 2016 07:20:06 +0000</pubDate>
+		<dc:creator>kimnet</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[colombia]]></category>
+		<category><![CDATA[accidente]]></category>
+		<category><![CDATA[avión]]></category>
+		<category><![CDATA[chapecoense]]></category>
+		<category><![CDATA[internacional]]></category>
+		<guid>https://www.meneame.net/story/accidente-avion-colombia-72-personas-bordo</guid>
+		<description><![CDATA[<p>Un avión chárter con nueve tripulantes y 72 pasajeros a bordo, entre ellos los jugadores del club de fútbol brasileño Chapecoense, se accidentó en la noche del lunes en el noroeste de Colombia, informaron fuentes oficiales.</p><p><strong>etiquetas</strong>: colombia, accidente, avión, chapecoense, internacional</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702929" >noticia original</a> (www.dw.com)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702929</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702482</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>nosoysacreew</meneame:user>
+		<meneame:clicks>6489</meneame:clicks>
+		<meneame:votes>625</meneame:votes>
+		<meneame:negatives>5</meneame:negatives>
+		<meneame:karma>3297</meneame:karma>
+		<meneame:comments>40</meneame:comments>
+		<meneame:url>http://www.elconfidencial.com/tecnologia/2016-11-28/la-empresa-alicantina-que-convencio-a-tesla-de-vender-sus-baterias-en-espana_1294953/</meneame:url>
+		<title>La empresa alicantina que convenció a Tesla de vender sus baterías en España</title>
+		<link>https://www.meneame.net/story/empresa-alicantina-convencio-tesla-vender-baterias-espana</link>
+		<comments>https://www.meneame.net/story/empresa-alicantina-convencio-tesla-vender-baterias-espana</comments>
+		<pubDate>Tue, 29 Nov 2016 03:35:07 +0000</pubDate>
+		<dc:creator>nosoysacreew</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[tesla]]></category>
+		<category><![CDATA[alicante]]></category>
+		<category><![CDATA[baterías]]></category>
+		<category><![CDATA[españa]]></category>
+		<guid>https://www.meneame.net/story/empresa-alicantina-convencio-tesla-vender-baterias-espana</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702482.jpeg?1480323846' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Bornay es una empresa de 22 trabajadores y más de 40 años, y es, de momento, la única distribuidora de las baterías de Tesla en nuestro país.</p><p><strong>etiquetas</strong>: tesla, alicante, baterías, españa</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702482" >noticia original</a> (www.elconfidencial.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702482.jpeg?1480323846" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702482</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702809</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>jaosmar</meneame:user>
+		<meneame:clicks>2937</meneame:clicks>
+		<meneame:votes>546</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>2911</meneame:karma>
+		<meneame:comments>171</meneame:comments>
+		<meneame:url>http://www.efe.com/efe/espana/portada/el-sinn-fein-presenta-un-plan-para-reunificar-irlanda-tras-brexit/10010-3109826</meneame:url>
+		<title>El Sinn Féin presenta un plan para reunificar Irlanda tras el &#34;brexit&#34;</title>
+		<link>https://www.meneame.net/story/sinn-fein-presenta-plan-reunificar-irlanda-tras-brexit</link>
+		<comments>https://www.meneame.net/story/sinn-fein-presenta-plan-reunificar-irlanda-tras-brexit</comments>
+		<pubDate>Tue, 29 Nov 2016 02:05:51 +0000</pubDate>
+		<dc:creator>jaosmar</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[brexit]]></category>
+		<category><![CDATA[reunificación]]></category>
+		<category><![CDATA[irlanda]]></category>
+		<category><![CDATA[sinn fein]]></category>
+		<guid>https://www.meneame.net/story/sinn-fein-presenta-plan-reunificar-irlanda-tras-brexit</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702809.jpeg?1480360206' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La salida del Reino Unido de la Unión Europea (UE) ha transformado el contexto político de Irlanda y presenta una &#34;oportunidad única&#34; para su reunificación, afirmó hoy el partido nacionalista Sinn Féi. El Sinn Féin presenta un plan para reunificar Irlanda tras el &#34;brexit&#34; | Portada | Agencia EFE</p><p><strong>etiquetas</strong>: brexit, reunificación, irlanda, sinn fein</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702809" >noticia original</a> (www.efe.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702809.jpeg?1480360206" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702809</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702757</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Ripio</meneame:user>
+		<meneame:clicks>7644</meneame:clicks>
+		<meneame:votes>193</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>1328</meneame:karma>
+		<meneame:comments>7</meneame:comments>
+		<meneame:url>http://www.nationalgeographic.com.es/historia/actualidad/una-coleccion-mapas-historicos-desclasificados-por-cia_10900</meneame:url>
+		<title>Una colección de mapas históricos desclasificados por la CIA</title>
+		<link>https://www.meneame.net/story/coleccion-mapas-historicos-desclasificados-cia</link>
+		<comments>https://www.meneame.net/story/coleccion-mapas-historicos-desclasificados-cia</comments>
+		<pubDate>Tue, 29 Nov 2016 00:50:08 +0000</pubDate>
+		<dc:creator>Ripio</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[mapas históricos]]></category>
+		<category><![CDATA[cia]]></category>
+		<category><![CDATA[cartografía]]></category>
+		<category><![CDATA[estados unidos]]></category>
+		<guid>https://www.meneame.net/story/coleccion-mapas-historicos-desclasificados-cia</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702757.jpeg?1480350726' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>En honor al 75 aniversario de la Unidad Cartográfica de la Agencia, se ha publicado una notable colección de mapas desclasificados que ilustran el trabajo de los servicios de espionaje americano, y que tal vez, incluso han jugado un papel representativo en muchos de los acontecimientos significativos en la historia reciente de los Estados Unidos.</p><p><strong>etiquetas</strong>: mapas históricos, cia, cartografía, estados unidos</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702757" >noticia original</a> (www.nationalgeographic.com.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702757.jpeg?1480350726" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702757</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702360</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>jm22381</meneame:user>
+		<meneame:clicks>5189</meneame:clicks>
+		<meneame:votes>185</meneame:votes>
+		<meneame:negatives>0</meneame:negatives>
+		<meneame:karma>1028</meneame:karma>
+		<meneame:comments>14</meneame:comments>
+		<meneame:url>http://www.sciencemag.org/news/2016/11/atlas-underworld-reveals-oceans-and-mountains-lost-earths-history</meneame:url>
+		<title>Atlas del inframundo revela océanos y montañas perdidos en la historia de la Tierra (ING)</title>
+		<link>https://www.meneame.net/story/atlas-inframundo-revela-oceanos-montanas-perdidos-historia-ing</link>
+		<comments>https://www.meneame.net/story/atlas-inframundo-revela-oceanos-montanas-perdidos-historia-ing</comments>
+		<pubDate>Tue, 29 Nov 2016 02:35:10 +0000</pubDate>
+		<dc:creator>jm22381</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[atlas]]></category>
+		<category><![CDATA[tectónica]]></category>
+		<category><![CDATA[océano]]></category>
+		<category><![CDATA[montaña]]></category>
+		<category><![CDATA[hundido]]></category>
+		<category><![CDATA[manto]]></category>
+		<category><![CDATA[terrestre]]></category>
+		<guid>https://www.meneame.net/story/atlas-inframundo-revela-oceanos-montanas-perdidos-historia-ing</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702360.jpeg?1480276086' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La desaparición de la corteza en las zonas de subducción hace difícil la reconstrucción de océanos antiguos y de otros accidentes geológicos que existieron hace cientos de millones de años. Los geocientíficos han comenzado a usar ondas de terremoto para generar imágenes de estos trozos de placa subducidos. La historia geológica de la Tierra de hasta hace 250 millones de años se puede recuperar a partir de esta información contenida en el manto terrestre. Más allá de eso, la Tierra sigue cubriendo sus huellas. En español: <a href="https://goo.gl/KjEbYZ" title="goo.gl/KjEbYZ" rel="nofollow">goo.gl/KjEbYZ</a></p><p><strong>etiquetas</strong>: atlas, tectónica, océano, montaña, hundido, manto, terrestre</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702360" >noticia original</a> (www.sciencemag.org)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702360.jpeg?1480276086" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702360</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702649</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Verbenero</meneame:user>
+		<meneame:clicks>2349</meneame:clicks>
+		<meneame:votes>737</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>3798</meneame:karma>
+		<meneame:comments>37</meneame:comments>
+		<meneame:url>http://www.lainformacion.com/ciencia-y-tecnologia/ciencias-marinas/praderas-Mar-Menor-desaparecido-turbidez_0_976103142.html</meneame:url>
+		<title>El 85% de las praderas marinas del Mar Menor ha desaparecido desde 2014 por la calidad y turbidez del agua</title>
+		<link>https://www.meneame.net/story/85-praderas-marinas-mar-menor-ha-desaparecido-desde-2014-calidad</link>
+		<comments>https://www.meneame.net/story/85-praderas-marinas-mar-menor-ha-desaparecido-desde-2014-calidad</comments>
+		<pubDate>Mon, 28 Nov 2016 22:25:09 +0000</pubDate>
+		<dc:creator>Verbenero</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[mar menor]]></category>
+		<category><![CDATA[praderas marinas]]></category>
+		<category><![CDATA[fitoplancton]]></category>
+		<category><![CDATA[fotosíntesis]]></category>
+		<category><![CDATA[turbidez]]></category>
+		<guid>https://www.meneame.net/story/85-praderas-marinas-mar-menor-ha-desaparecido-desde-2014-calidad</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702649.jpeg?1480339566' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El 85 por ciento de las praderas marinas del Mar Menor ha desaparecido entre 2014 y 2016 por el cambio &#34;drástico&#34; en la calidad de las aguas experimentado en la segunda mitad del 2015 debido a una proliferación masiva de fitoplancton, que ha hecho que la laguna se torne verde y extremadamente turbia impidiendo la fotofosíntesis a una profundidad superior a los tres o cuatro metros.</p><p><strong>etiquetas</strong>: mar menor, praderas marinas, fitoplancton, fotosíntesis, turbidez</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702649" >noticia original</a> (www.lainformacion.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702649.jpeg?1480339566" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702649</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702777</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Mister_Lala</meneame:user>
+		<meneame:clicks>7981</meneame:clicks>
+		<meneame:votes>320</meneame:votes>
+		<meneame:negatives>1</meneame:negatives>
+		<meneame:karma>2159</meneame:karma>
+		<meneame:comments>36</meneame:comments>
+		<meneame:url>http://www.jardineriaon.com/descubierto-en-el-kilimanjaro-el-arbol-mas-alto-de-africa.html</meneame:url>
+		<title>Descubierto en el Kilimanjaro el árbol más alto de África</title>
+		<link>https://www.meneame.net/story/descubierto-kilimanjaro-arbol-mas-alto-africa</link>
+		<comments>https://www.meneame.net/story/descubierto-kilimanjaro-arbol-mas-alto-africa</comments>
+		<pubDate>Mon, 28 Nov 2016 20:40:04 +0000</pubDate>
+		<dc:creator>Mister_Lala</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[kilimanjaro]]></category>
+		<category><![CDATA[árbol]]></category>
+		<category><![CDATA[altura]]></category>
+		<category><![CDATA[entandrophragma excelsum]]></category>
+		<guid>https://www.meneame.net/story/descubierto-kilimanjaro-arbol-mas-alto-africa</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702777.jpeg?1480353907' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Un equipo de científicos ha descubierto el árbol más alto de África: mide 81 metros de altura y crece en el Monte Kilimanjaro.</p><p><strong>etiquetas</strong>: kilimanjaro, árbol, altura,  entandrophragma excelsum</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702777" >noticia original</a> (www.jardineriaon.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702777.jpeg?1480353907" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702777</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702718</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>mr_b</meneame:user>
+		<meneame:clicks>9355</meneame:clicks>
+		<meneame:votes>792</meneame:votes>
+		<meneame:negatives>7</meneame:negatives>
+		<meneame:karma>4160</meneame:karma>
+		<meneame:comments>144</meneame:comments>
+		<meneame:url>http://laboro-spain.blogspot.ie/2016/11/desventajas-contratar-personal-empresas-servicios.html</meneame:url>
+		<title>El absurdo de contratar trabajadores mediante intermediarios o cárnicas</title>
+		<link>https://www.meneame.net/story/absurdo-contratar-trabajadores-mediante-intermediarios-carnicas</link>
+		<comments>https://www.meneame.net/story/absurdo-contratar-trabajadores-mediante-intermediarios-carnicas</comments>
+		<pubDate>Mon, 28 Nov 2016 20:05:02 +0000</pubDate>
+		<dc:creator>mr_b</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[absurdo]]></category>
+		<category><![CDATA[contratación]]></category>
+		<category><![CDATA[intermediarios]]></category>
+		<category><![CDATA[ett]]></category>
+		<guid>https://www.meneame.net/story/absurdo-contratar-trabajadores-mediante-intermediarios-carnicas</guid>
+		<description><![CDATA[<p>En muchas ocasiones los empresaurios no contratan a sus trabajadores directamente mediante contrato de trabajo entre empresa y empleado sino que los contratan mediante lo que podríamos llamar un “intermediario”. Es el intermediario quien contrata al empleado mediante contrato de trabajo y lo pone a disposición de la empresa del empresaurio. Es decir que tenemos a un empleado cuyo contrato dice que trabaja para la empresa A (el intermediario) pero la realidad dice que trabaja para la empresa B (la del empresaurio).</p><p><strong>etiquetas</strong>: absurdo, contratación, intermediarios, ett</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702718" >noticia original</a> (laboro-spain.blogspot.ie)</p>]]></description>
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702718</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702758</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Livingstone85</meneame:user>
+		<meneame:clicks>13664</meneame:clicks>
+		<meneame:votes>887</meneame:votes>
+		<meneame:negatives>4</meneame:negatives>
+		<meneame:karma>4553</meneame:karma>
+		<meneame:comments>114</meneame:comments>
+		<meneame:url>http://www.elperiodicum.es/opinion/si-pasan-unas-horas-mas-el-chaval-ni-lo-cuenta/</meneame:url>
+		<title>“Si pasan unas horas más… el chaval ni lo cuenta”</title>
+		<link>https://www.meneame.net/story/pasan-unas-horas-mas-chaval-ni-cuenta</link>
+		<comments>https://www.meneame.net/story/pasan-unas-horas-mas-chaval-ni-cuenta</comments>
+		<pubDate>Mon, 28 Nov 2016 19:30:03 +0000</pubDate>
+		<dc:creator>Livingstone85</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[hospital]]></category>
+		<category><![CDATA[arrixaca]]></category>
+		<category><![CDATA[atención]]></category>
+		<category><![CDATA[enfermo]]></category>
+		<guid>https://www.meneame.net/story/pasan-unas-horas-mas-chaval-ni-cuenta</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702758.jpeg?1480350486' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Cuando llegas a un hospital con un dolor tan insoportable que apenas puedes moverte, lo único que deseas es que te curen lo antes posible. Está claro que todo tiene su tiempo. Los profesionales sanitarios deben actuar sin prisa… pero sin pausa, porque una pausa tan alargada como la que yo viví pudo perfectamente acabar con mi vida.</p><p><strong>etiquetas</strong>: hospital, arrixaca, atención, enfermo</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702758" >noticia original</a> (www.elperiodicum.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702758.jpeg?1480350486" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702758</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702581</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>LBOCarla</meneame:user>
+		<meneame:clicks>3020</meneame:clicks>
+		<meneame:votes>1963</meneame:votes>
+		<meneame:negatives>11</meneame:negatives>
+		<meneame:karma>9483</meneame:karma>
+		<meneame:comments>173</meneame:comments>
+		<meneame:url>http://www.bez.es/992837955/Espana-bate-record-millones-asalariados-cobran-menos-salario-minimo.html</meneame:url>
+		<title>España bate récord con 5,9 millones de asalariados que cobran menos del salario mínimo</title>
+		<link>https://www.meneame.net/story/espana-bate-record-5-9-millones-asalariados-cobran-menos-salario</link>
+		<comments>https://www.meneame.net/story/espana-bate-record-5-9-millones-asalariados-cobran-menos-salario</comments>
+		<pubDate>Mon, 28 Nov 2016 19:05:03 +0000</pubDate>
+		<dc:creator>LBOCarla</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[smi]]></category>
+		<category><![CDATA[salario mínimo]]></category>
+		<category><![CDATA[salario mínimo interprofesional]]></category>
+		<category><![CDATA[asalariados]]></category>
+		<guid>https://www.meneame.net/story/espana-bate-record-5-9-millones-asalariados-cobran-menos-salario</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702581.jpeg?1480333506' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La figura del trabajador pobre gana terreno. España cerró 2015 con 5,9 millones de asalariados que tuvieron algún tipo de trabajo durante el año, pero que en el conjunto del ejercicio no lograron alcanzar el salario mínimo interprofesional fijado para esa anualidad: 9.080,40 euros brutos en 14 pagas. <b>Son empleados que obtuvieron una determinada renta a lo largo del ejercicio sin que en el conjunto del ejercicio hayan llegado al salario mínimo</b>.</p><p><strong>etiquetas</strong>: smi, salario mínimo, salario mínimo interprofesional, asalariados</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702581" >noticia original</a> (www.bez.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702581.jpeg?1480333506" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702581</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702526</meneame:link_id>
+		<meneame:sub>cultura</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>elLocoDelMolino</meneame:user>
+		<meneame:clicks>10584</meneame:clicks>
+		<meneame:votes>247</meneame:votes>
+		<meneame:negatives>7</meneame:negatives>
+		<meneame:karma>1617</meneame:karma>
+		<meneame:comments>58</meneame:comments>
+		<meneame:url>http://blogs.publico.es/strambotic/2016/11/panotico-fidel/</meneame:url>
+		<title>El panóptico en el que cumplió condena Fidel Castro</title>
+		<link>https://www.meneame.net/story/panoptico-cumplio-condena-fidel-castro</link>
+		<comments>https://www.meneame.net/story/panoptico-cumplio-condena-fidel-castro</comments>
+		<pubDate>Mon, 28 Nov 2016 18:25:10 +0000</pubDate>
+		<dc:creator>elLocoDelMolino</dc:creator>
+		<category><![CDATA[cultura]]></category>
+		<category><![CDATA[panóptico]]></category>
+		<category><![CDATA[isla de la juventud]]></category>
+		<category><![CDATA[cuartel de moncada]]></category>
+		<category><![CDATA[jeremy betham]]></category>
+		<guid>https://www.meneame.net/story/panoptico-cumplio-condena-fidel-castro</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702526.jpeg?1480327686' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>El panóptico es un diseño de cárcel concebido a finales del siglo XVIII por el filósofo inglés Jeremy Betham y que se caracteriza por una torre central en la que el vigía tiene controlados a todos los reos, y éstos sienten que están constantemente vigilados, aunque de hecho nadie los mire. El Presidio Modelo, construido entre 1926 y 1931 en la Isla de la Juventud, al suroeste de Cuba, es posiblemente el mejor ejemplo de panóptico construido. Es ahí donde cumplieron condena los hermanos Castro entre 1953 y 1955.</p><p><strong>etiquetas</strong>: panóptico, isla de la juventud, cuartel de moncada, jeremy betham</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702526" >noticia original</a> (blogs.publico.es)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702526.jpeg?1480327686" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702526</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702658</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>viajeroWeb</meneame:user>
+		<meneame:clicks>4130</meneame:clicks>
+		<meneame:votes>676</meneame:votes>
+		<meneame:negatives>3</meneame:negatives>
+		<meneame:karma>3479</meneame:karma>
+		<meneame:comments>18</meneame:comments>
+		<meneame:url>https://encanarias.wordpress.com/2016/11/28/lo-que-pasa-cuando-en-canarias-gobierna-una-inmobiliaria/</meneame:url>
+		<title>Lo que pasa cuando en Canarias gobierna una inmobiliaria…</title>
+		<link>https://www.meneame.net/story/pasa-cuando-canarias-gobierna-inmobiliaria</link>
+		<comments>https://www.meneame.net/story/pasa-cuando-canarias-gobierna-inmobiliaria</comments>
+		<pubDate>Mon, 28 Nov 2016 17:15:05 +0000</pubDate>
+		<dc:creator>viajeroWeb</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[clavijo]]></category>
+		<category><![CDATA[ley del suelo]]></category>
+		<category><![CDATA[desarrollo sostenible]]></category>
+		<guid>https://www.meneame.net/story/pasa-cuando-canarias-gobierna-inmobiliaria</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3d/media_thumb-link-2702658.jpeg?1480340646' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Coreando &#34;Coalición Canaria es una inmobiliaria&#34; o &#34;Canarias no se vende, Canarias se defiende&#34; se celebró el pasado sábado 26 de noviembre una manifestación de protesta contra la Ley del Suelo que el Gobierno de Fernando Clavijo intenta imponer a los canarios. No es la primera (ya hubo una concentración en Las Palmas de Gran…</p><p><strong>etiquetas</strong>: clavijo, ley del suelo, desarrollo sostenible</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702658" >noticia original</a> (encanarias.wordpress.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3d/media_thumb-link-2702658.jpeg?1480340646" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702658</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702510</meneame:link_id>
+		<meneame:sub>tecnología</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Fu_man_chú</meneame:user>
+		<meneame:clicks>4609</meneame:clicks>
+		<meneame:votes>586</meneame:votes>
+		<meneame:negatives>5</meneame:negatives>
+		<meneame:karma>3072</meneame:karma>
+		<meneame:comments>44</meneame:comments>
+		<meneame:url>http://www.elconfidencial.com/tecnologia/2016-11-28/denuncia-plagio-patentes-huawei-vodafone-top-optimized-technologies_1290204/</meneame:url>
+		<title>Golpe a Vodafone y Huawei: una startup española exige 508 millones por plagio</title>
+		<link>https://www.meneame.net/story/golpe-vodafone-huawei-startup-espanola-exige-508-millones-plagio</link>
+		<comments>https://www.meneame.net/story/golpe-vodafone-huawei-startup-espanola-exige-508-millones-plagio</comments>
+		<pubDate>Mon, 28 Nov 2016 17:15:03 +0000</pubDate>
+		<dc:creator>Fu_man_chú</dc:creator>
+		<category><![CDATA[tecnología]]></category>
+		<category><![CDATA[vodafone]]></category>
+		<category><![CDATA[tot]]></category>
+		<category><![CDATA[huawei]]></category>
+		<category><![CDATA[plagio]]></category>
+		<category><![CDATA[demanda]]></category>
+		<category><![CDATA[olpc]]></category>
+		<guid>https://www.meneame.net/story/golpe-vodafone-huawei-startup-espanola-exige-508-millones-plagio</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702510.jpeg?1480326006' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Problemas para Huawei y Vodafone: una startup española les exige más de 500 millones de euros y las acusa de plagio e infracción de patentes y de revelación de secreto industrial. La compañía española Top Optimized Technologies (TOT), especializada en desarrollo de tecnologías para optimizar la transmisión de datos y la capacidad de las líneas 3G y 4G, ha demandado a los grupos mundiales de Vodafone y Huawei. Los acusa de plagio e infracción de patentes, revelación de secreto industrial, competencia desleal e incumplimiento contractual.</p><p><strong>etiquetas</strong>: vodafone, tot, huawei, plagio, demanda, olpc</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702510" >noticia original</a> (www.elconfidencial.com)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702510.jpeg?1480326006" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702510</wfw:commentRss>	</item>
+
+	<item>
+		<meneame:link_id>2702535</meneame:link_id>
+		<meneame:sub>actualidad</meneame:sub>
+		<meneame:status>published</meneame:status>
+		<meneame:user>Thornage</meneame:user>
+		<meneame:clicks>4253</meneame:clicks>
+		<meneame:votes>530</meneame:votes>
+		<meneame:negatives>8</meneame:negatives>
+		<meneame:karma>2814</meneame:karma>
+		<meneame:comments>58</meneame:comments>
+		<meneame:url>https://www.diagonalperiodico.net/libertades/32308-habeas-corpus-no-es-solo-grupo-hardcore.html</meneame:url>
+		<title>Detención ilegal: habeas corpus no es sólo el nombre de un grupo de hardcore</title>
+		<link>https://www.meneame.net/story/detencion-ilegal-habeas-corpus-no-solo-nombre-grupo-hardcore</link>
+		<comments>https://www.meneame.net/story/detencion-ilegal-habeas-corpus-no-solo-nombre-grupo-hardcore</comments>
+		<pubDate>Mon, 28 Nov 2016 16:35:11 +0000</pubDate>
+		<dc:creator>Thornage</dc:creator>
+		<category><![CDATA[actualidad]]></category>
+		<category><![CDATA[ala]]></category>
+		<category><![CDATA[habeas corpus]]></category>
+		<category><![CDATA[diagonal]]></category>
+		<category><![CDATA[detenciones]]></category>
+		<category><![CDATA[privación de libertad]]></category>
+		<guid>https://www.meneame.net/story/detencion-ilegal-habeas-corpus-no-solo-nombre-grupo-hardcore</guid>
+		<description><![CDATA[<img src='https://mnmstatic.net/cache/29/3c/media_thumb-link-2702535.jpeg?1480329126' width='60' height='60' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>La legislación española dicta que la privación de libertad en comisaría de las personas detenidas debe durar el tiempo mínimo indispensable para realizar las diligencias básicas de investigación. Sin embargo, la práctica de los jueces en Madrid y Barcelona, que reciben a detenidos sólo por las mañanas, vulnera este derecho a la libertad</p><p><strong>etiquetas</strong>: ala, habeas corpus, diagonal, detenciones, privación de libertad</p><p>&#187;&nbsp;<a href="http://www.meneame.net/go?id=2702535" >noticia original</a> (www.diagonalperiodico.net)</p>]]></description>
+		<media:thumbnail url="https://mnmstatic.net/cache/29/3c/media_thumb-link-2702535.jpeg?1480329126" width='60' height='60' />
+		<wfw:commentRss>http://www.meneame.net/comments_rss?id=2702535</wfw:commentRss>	</item>
+
+</channel>
+</rss>

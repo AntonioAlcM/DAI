@@ -1,0 +1,185 @@
+{% extends "index.html" %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   	{% block head %}
+		{{ super() }}	
+	{% endblock %}
+
+
+<body>
+
+<div id="container">
+	{% block container %}
+	
+
+	<div id="body_image">		
+	</div>
+
+
+
+
+	<div id="page_forms">
+		{% block page_forms %}
+		<!-- Start of User Login -->
+
+		<div id="userlogin">
+
+			<div id="userlogin_header">
+			<div id=usuario>Bienvenido {{session['usuario']}}</div> 
+			</div>
+
+			<div id="userlogin_links">
+			<ul class="log">
+				<li class="online"><a href="http://www.freewebsitetemplates.com/" title="Online"><span>Online</span></a><span></span></li>
+				<li class="downloads"><a href="http://www.freewebsitetemplates.com/" title="Downloads"><span>Downloads</span></a><span></span></li>
+				<li class="community"><a href="http://www.freewebsitetemplates.com/" title="Community"><span>Community</span></a><span></span></li>
+				<li class="about"><a href="http://www.freewebsitetemplates.com/" title="About"><span>About Zone</span></a><span></span></li>
+				<li class="modificar"><a href="{{ url_for('redireccionar', pagina='modificar') }}" title="Cerrar sesion">Modificar</a><span></span></li>
+				<li class="modificar"><a href="{{ url_for('redireccionar') }}" title="Cerrar sesion">Ver datos</a><span></span></li>
+				<li class="cerrar_sesion"><a href="{{ url_for('cerrarSesion') }}" title="Cerrar sesion">Cerrar Sesi&oacute;n</a><span></span></li>
+		</ul>
+			</div>
+
+		</div>
+		{% endblock %}
+	</div>
+
+			
+	<div id="content_body">
+		{% block content_body %}
+		<!-- Start of Recent Reviews -->
+
+		<div id="reviews_box">
+		<div id="reviews">
+
+			<div class="content_header">
+			<h2><span>Recent Reviews</span></h2>
+			</div>
+
+
+			<!-- Start of Recent Reviews Entry 1 -->
+
+			<div class="content_entry">
+
+				<div class="thumbnail"><img src="static/images/_image01.gif" width="121" height="90" alt="Image Caption" /></div>
+
+				<div class="entry_text">
+<p>We add new <a href="http://www.freewebsitetemplates.com">free website templates</a> frequently.</p>
+<p>You can remove any link to our websites from this template you're free to use the template without linking back to us.</p>
+
+				</div>
+
+				<div class="clearthis">&nbsp;</div>
+			</div>
+
+			<!-- End of Recent Reviews Entry 1 -->
+
+
+			<!-- Start of Recent Reviews Entry 2 -->
+
+			<div class="content_entry">
+
+				<div class="thumbnail"><img src="static/images/_image02.gif" width="118" height="88" alt="Image Caption" /></div>
+
+				<div class="entry_text">
+
+<p>This is just a place holder so you can see how the site would look like.</p>
+<p>The template is designed by <a href="http://www.freewebsitetemplates.com">free website templates</a> for you for free you can replace all the text by your own text.</p>
+
+
+				</div>
+
+				<div class="clearthis">&nbsp;</div>
+			</div>
+
+			<!-- End of Recent Reviews Entry 2 -->
+
+
+		</div>
+		</div>
+
+		<!-- End of Recent Reviews -->
+
+
+		<!-- Start of Play Now -->
+
+		<div id="playnow_box">
+		<div id="playnow">
+
+			<div class="content_header">
+			<h2><span>Play Now</span></h2>
+			</div>
+
+
+			<!-- Start of Play Now Entry 1 -->
+
+			<div class="content_entry">
+
+				<div class="thumbnail"><img src="static/images/_image03.gif" width="118" height="88" alt="Image Caption" /></div>
+
+				<div class="entry_text">
+<h3>
+<a href="http://www.justwebtemplates.com">Just Web Templates</a>
+<br />
+</h3>
+
+<p>Even more websites all about website templates on <a href="http://www.justwebtemplates.com">Just Web Templates</a>.</p>
+		  
+
+				</div>
+
+				<div class="clearthis">&nbsp;</div>
+			</div>
+
+			<!-- End of Play Now Entry 1 -->
+
+
+			<!-- Start of Play Now Entry 2 -->
+
+			<div class="content_entry">
+
+				<div class="thumbnail"><img src="static/images/_image04.gif" width="118" height="88" alt="Image Caption" /></div>
+
+				<div class="entry_text">
+
+<h3>
+<a href="http://www.templatebeauty.com">Template Beauty</a>
+<br />
+
+</h3>
+
+<p>If you're looking for beautiful and professionally made templates you can find them at <a href="http://www.templatebeauty.com">Template Beauty</a>.</p>
+
+				</div>
+
+				<div class="clearthis">&nbsp;</div>
+			</div>
+
+			<!-- End of Play Now Entry 2 -->
+
+		</div>
+		</div>
+
+		<!-- End of Play Now -->
+		{% endblock %}
+	</div>
+
+
+	<div id="clearthis_contentbody">&nbsp;</div>
+	{% endblock %}
+</div>
+
+<!-- Start of Page Footer -->
+
+<div id="page_footer">
+Copyright <a href="http://www.freewebsitetemplates.com">www.yoursite.com</a> | <a href="http://www.freewebsitetemplates.com/termsofuse/">Terms of use</a>
+
+</div>
+
+<!-- End of Page Footer -->
+
+
+</body>
+</html>

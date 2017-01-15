@@ -1,0 +1,62 @@
+{% extends "index.html" %}
+
+ 
+	{% block container %}
+		<div id="body_image1">
+		<div class="container1" >
+		  <h2>Información Restaurante</h2>
+		  <ul class="list-group">
+			<li class="list-group-item">Adress
+				<ul class="list-group">
+					<li class="list-group-item">building <span class="badge">{{record['address']['building']}}</span></li>
+					<li class="list-group-item">coord <span class="badge">{{record['address']['coord']}}</span></li>
+					<li class="list-group-item">street <span class="badge">{{record['address']['street']}}</span></li>
+					<li class="list-group-item">zipcode <span class="badge">{{record['address']['zipcode']}}</span></li>
+		  		</ul></li>
+			<li class="list-group-item">borough <span class="badge">{{record['borough']}}</span></li>
+			<li class="list-group-item">cuisine <span class="badge">{{record['cuisine']}}</span></li>
+			<li class="list-group-item">grades
+				{%for i in record['grades']: %}
+				<ul class="list-group">
+					<li class="list-group-item">date <span class="badge">{{i['date']}}</span></li>
+					<li class="list-group-item">grade <span class="badge">{{i['grade']}}</span></li>
+					<li class="list-group-item">score <span class="badge">{{i['score']}}</span></li>
+		  		</ul>{% endfor %}</li>
+				 
+			<li class="list-group-item">name <span class="badge">{{record['name']}}</span></li>
+			<li class="list-group-item">restaurant_id <span class="badge">{{record['restaurant_id']}}</span></li>
+		  </ul>
+		</div>
+		</div>
+		{% block page_header %}
+			{{ super() }}
+		{%endblock%}
+		{% block page_menu %}
+			{{ super() }}
+		{%endblock%}
+	<div id="page_forms">
+		<!-- Start of User Login -->
+		
+		<div id="userlogin">
+
+			<div id="userlogin_header">
+			<div id=usuario>Opciones restaurante </div> 
+			</div>
+
+			<div id="userlogin_links">
+			<ul class="log">
+				<li class="modificar"><a href="{{ url_for('modificarRestaurante', identificador=record['restaurant_id']) }}" title="Modificar datos">Modificar</a><span></span></li>
+		</ul>
+			</div>
+
+		</div>
+	</div>
+	
+
+
+
+
+
+
+	{% endblock %}
+

@@ -1,0 +1,82 @@
+{% extends "index.html" %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   	{% block head %}
+		{{ super() }}	
+	{% endblock %}
+
+
+<body>
+
+<div id="container">
+	{% block container %}
+
+
+
+	<!-- Start of Page Header -->
+
+	<div id="page_header">
+		<h1><span>Game Zone</span></h1>
+		<h3><span>Welcome to Game Zone</span></h3>
+
+		<div class="clearthis">&nbsp;</div>
+	</div>
+
+	<!-- End of Page Header -->
+
+
+	<!-- Start of Page Menu -->
+
+	<div id="page_menu">
+
+		<ul>
+		<li class="online"><a href="http://www.freewebsitetemplates.com/" title="Online"><span>Online</span></a><span></span></li>
+		<li class="downloads"><a href="http://www.freewebsitetemplates.com/" title="Downloads"><span>Downloads</span></a><span></span></li>
+		<li class="community"><a href="http://www.freewebsitetemplates.com/" title="Community"><span>Community</span></a><span></span></li>
+		<li class="about"><a href="http://www.freewebsitetemplates.com/" title="About"><span>About Zone</span></a><span></span></li>
+		</ul>
+
+	</div>
+	<div id="userlogin1">
+
+			<div id="userlogin_header2">
+			<h2><span>User Login</span></h2>
+			</div>
+
+			<form action="{{ url_for('registrar') }}" method=Post>
+
+				<div id="field_username">
+				<strong><span>Usuario:</span></strong>
+				<input type="text" name="usuario"/>
+				</div>
+
+				<div id="field_password">
+				<strong><span>Contraseña:</span></strong>
+				<input type="text" name="contrasena" />
+				</div>
+
+				<div id="button_enter">
+				<input type="submit" src="static/images/userlogin_enter.gif" alt="Enter" class="button" />
+				</div>
+
+			</form>
+			</div>
+
+
+	{% endblock %}
+</div>
+
+<!-- Start of Page Footer -->
+
+<div id="page_footer">
+Copyright <a href="http://www.freewebsitetemplates.com">www.yoursite.com</a> | <a href="http://www.freewebsitetemplates.com/termsofuse/">Terms of use</a>
+
+</div>
+
+<!-- End of Page Footer -->
+
+
+</body>
+</html>

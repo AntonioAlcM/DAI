@@ -1,0 +1,81 @@
+{% extends "index.html" %}
+
+
+
+	{% block container %}
+	{% block page_header %}
+			{{ super() }}
+		{%endblock%}
+		{% block page_menu %}
+			{{ super() }}
+		{%endblock%}
+<div id="body_image3">
+<div class="container">
+  <h2>Datos restaurante</h2>
+  <form class="form-horizontal" action="{{ url_for('crearRestaurant')}}" method=Post>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Adress building:</label>
+      <div class="col-sm-10">
+        <input type="text" name="building" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Adress coordX:</label>
+      <div class="col-sm-10">
+        <input type="text" name="coordX" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Adress coordY:</label>
+      <div class="col-sm-10">
+        <input type="text" name="coordY" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Adress street:</label>
+      <div class="col-sm-10">
+        <input type="text" name="street" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Adress zipcode:</label>
+      <div class="col-sm-10">
+        <input type="text" name="zipcode" />
+      </div>
+    </div>
+	 <div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Borough:</label>
+      <div class="col-sm-10">
+        <input type="text" name="borough" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Cuisine:</label>
+      <div class="col-sm-10">
+        <input type="text" name="cuisine" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Name:</label>
+      <div class="col-sm-10">
+        <input type="text" name="name" />
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="usr">Restaurant_id:</label>
+      <div class="col-sm-10">
+        <input type="text" name="restaurant_id"  />
+      </div>
+    </div>
+	<div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+	{% endblock %}
+
+
