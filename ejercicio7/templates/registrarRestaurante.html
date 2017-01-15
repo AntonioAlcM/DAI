@@ -1,0 +1,85 @@
+
+{% extends "index.html" %}
+
+{% block body %}
+
+{% block contenido %}
+
+<script type="text/javascript">
+
+var datos=[];
+      var url =' https://maps.googleapis.com/maps/api/geocode/json?address=avenida+de+la+libertad&components=postal_code:18008|locality:Granada&key=AIzaSyDEICkYChmmm--Uq6ket7gMWDHfjrIx0-Y';
+      //var panorama=document.location.href=url;
+        $.getJSON(url,  function(data) {
+          alert(JSON.stringify(data['status']));
+        });
+
+
+</script>
+
+    <form action="{% url 'registrarRestaurante' %}" method="post"  >
+      {% csrf_token %}
+      <div class="group">
+        <input type="text" name="Name" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Name</label>
+      </div>
+      <div class="group">
+        <input type="text" name="Restaurante_id" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Restaurante_id</label>
+      </div>
+      <div class="group">
+        <input type="text" name="Cuisine" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Cuisine</label>
+      </div>
+      <div class="group">
+        <input type="text" name="Borough" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Borough</label>
+      </div>
+      <div class="group">
+        <input type="text" name="AdressBuilding" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Adress building</label>
+      </div>
+
+      <div class="group">
+        <input type="text" name="AdressCoordX" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Adress coordX</label>
+      </div>
+
+      <div class="group">
+        <input type="text" name="AdressCoordY" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Adress coordY</label>
+      </div>
+
+      <div class="group">
+        <input type="text" name="AdressStreet" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Adress street</label>
+      </div>
+      <div class="group">
+        <input type="text" name="AdressZipcode" >
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Adress zipcode</label>
+      </div>
+      <div class="group">
+        <center> <button type="submit" class="btn btn-warning" value="Submit">Registrar <span class="glyphicon glyphicon-send"></span></button></center>
+      </div>
+    </form>
+
+{% endblock %}
+{% endblock %}

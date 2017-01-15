@@ -1,0 +1,30 @@
+
+{% extends "index.html" %}
+{% load i18n %}
+  {% block contenido %}
+
+<body>
+
+    <div class="container" style="width: 300px">
+
+      <form class="form-signin" method="post" action=".">
+        {% csrf_token %} 
+        
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address or User</label>
+        <input type="text" id="id_username" class="form-control" maxlength="254" name="username" placeholder="Email address or User" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="id_password" name="password" class="form-control" placeholder="Password" required="">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"  value="{% trans 'Log in' %}">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+
+
+</body>
+  {% endblock %}
